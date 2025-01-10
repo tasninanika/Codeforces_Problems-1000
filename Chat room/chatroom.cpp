@@ -9,7 +9,9 @@ int main(){
     int j = 0;
 
     for(int i = 0; i < s.size(); i++){
+            if(word[j] == s[i]){
 
+            }
     }
 
     cout << "NO" << endl;
