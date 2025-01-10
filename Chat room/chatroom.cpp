@@ -10,7 +10,11 @@ int main(){
 
     for(int i = 0; i < s.size(); i++){
             if(word[j] == s[i]){
-
+                j++;
+                if(j == word.size()){
+                    cout << "YES" << endl;
+                    return 0;
+                }
             }
     }
 
