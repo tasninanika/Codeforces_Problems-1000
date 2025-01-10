@@ -5,10 +5,8 @@ int main(){
     string s;
     cin >> s;
 
-    for(int i = 0; i < s.size(); i++){
-
-    }
-
+    string word = "hello";
+    int j = 0;
 
 
     return 0;
