@@ -12,7 +12,10 @@ int main(){
             c++;
         }
     }
-    if(c == 4 || c == 7){
+    if(s.size() == c){
+        cout << "YES" << endl;
+    }
+    else if(n % 4 == 0 || n % 7 == 0){
         cout << "YES" << endl;
     }
     else{
