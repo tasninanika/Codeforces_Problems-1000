@@ -12,6 +12,9 @@ int main(){
             c++;
         }
     }
+    if(s.size() == c){
+        cout << "YES" << endl;
+    }
 
 
     return 0;
