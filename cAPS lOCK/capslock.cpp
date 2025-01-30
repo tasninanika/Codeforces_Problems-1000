@@ -9,13 +9,13 @@ int main(){
 
     for(int i = 1; i < s.size(); i++){
         if(islower(s[i])){
-            c++;
+            c1++;
         }
     }
 
     for(int i = 0; i < s.size(); i++){
         if(isupper(s[i])){
-            d++;
+            c2++;
         }
     }
 
@@ -26,6 +26,8 @@ int main(){
         }
 
         cout << s << endl;
+
+        if(c2 == s.size())
     }
     else{
         cout << s << endl;
