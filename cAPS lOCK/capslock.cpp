@@ -17,9 +17,14 @@ int main(){
         for(int i = 1; i < s.size(); i++){
             s[i] = tolower(s[i]);
         }
+
+        cout << s << endl;
+    }
+    else{
+        cout << s << endl;
     }
 
-    cout << s << endl;
+
 
 
     return 0;
