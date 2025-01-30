@@ -6,8 +6,8 @@ int main(){
     cin >> s;
 
     for(int i = 0; i < s.size(); i++){
-        toupper(s[0]);
-        tolower(s[i+1]);
+        s[0] = toupper(s[0]);
+        s[i+1] = tolower(s[i+1]);
     }
 
     cout << s << endl;
