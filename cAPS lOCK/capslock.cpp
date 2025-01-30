@@ -26,8 +26,12 @@ int main(){
         }
 
         cout << s << endl;
-
-        if(c2 == s.size())
+    }
+    else if( c2 == s.size()){
+        for(int i = 0; i < s.size(); i++){
+            s[i] = tolower(s[i]);
+        }
+        cout << s << endl;
     }
     else{
         cout << s << endl;
