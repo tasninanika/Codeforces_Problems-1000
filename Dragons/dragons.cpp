@@ -5,8 +5,9 @@ int main(){
     int s, n;
     cin >> s >> n;
 
+    int x[n], y[n];
     for(int i = 0; i < n; i++){
-
+        cin >> x[n] << y[n];
     }
 
     return 0;
