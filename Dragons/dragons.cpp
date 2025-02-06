@@ -20,9 +20,11 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-        if(s > x[i]){
-            c++;
-            s += y[i];
+        if(s > a[i].first){
+            break;
+        }
+        else{
+            s += a[i].second;
         }
     }
 
