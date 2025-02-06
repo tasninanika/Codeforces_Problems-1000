@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int s, n;
+    int s, n, c = 0;
     cin >> s >> n;
 
     int x[n], y[n];
@@ -11,7 +11,9 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-
+        if(s > x[i]){
+            c++;
+        }
     }
 
     return 0;
