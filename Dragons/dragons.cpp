@@ -21,6 +21,7 @@ int main(){
 
     for(int i = 0; i < n; i++){
         if(s > a[i].first){
+            c++;
             break;
         }
         else{
@@ -28,11 +29,11 @@ int main(){
         }
     }
 
-    if(c == n){
-        cout << "YES" << endl;
+    if(c > 0){
+        cout << "NO" << endl;
     }
     else{
-        cout << "NO" << endl;
+        cout << "YES" << endl;
     }
 
     return 0;
