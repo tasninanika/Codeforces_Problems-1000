@@ -20,7 +20,7 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-        if(s > a[i].first){
+        if(s < a[i].first){
             c++;
             break;
         }
