@@ -10,5 +10,9 @@ int main(){
         cin >> x[n] << y[n];
     }
 
+    for(int i = 0; i < n; i++){
+
+    }
+
     return 0;
 }
