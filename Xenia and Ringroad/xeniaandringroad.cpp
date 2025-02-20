@@ -14,6 +14,9 @@ int main(){
         if(arr[i] > arr[i+1]){
             c += n - (arr[i] - arr[i+1]);
         }
+        else if(arr[i] < arr[i+1]){
+            c += arr[i+1] - arr[i];
+        }
     }
 
     return 0;
