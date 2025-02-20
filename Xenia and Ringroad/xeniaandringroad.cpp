@@ -5,5 +5,10 @@ int main(){
     int n, m;
     cin >> n >> m;
 
+    int arr[m];
+    for(int i = 0; i < m; i++){
+        cin >> arr[m];
+    }
+
     return 0;
 }
