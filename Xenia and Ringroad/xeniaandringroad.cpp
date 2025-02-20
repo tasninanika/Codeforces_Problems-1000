@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n, m;
+    int n, m, c = 0;
     cin >> n >> m;
 
     int arr[m];
@@ -10,9 +10,9 @@ int main(){
         cin >> arr[m];
     }
 
-    for(int i = 0; i < m; i++){
-        for(int j = 0; j < m; j++){
-
+    for(int i = 0; i < m - 1; i++){
+        if(arr[i] > arr[i+1]){
+            c += n - (arr[i] - arr[i+1]);
         }
     }
 
