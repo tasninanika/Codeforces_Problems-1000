@@ -10,6 +10,7 @@ int main(){
         if(x % 2 == 1){
             c++;
         }
+        x /= 2;
     }
 
     return 0;
