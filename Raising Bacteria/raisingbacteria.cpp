@@ -13,5 +13,7 @@ int main(){
         x /= 2;
     }
 
+    cout << c << endl;
+
     return 0;
 }
