@@ -6,7 +6,9 @@ int main(){
     cin >> x;
 
     while(x > 0){
+        if(x % 2 == 1){
 
+        }
     }
 
     return 0;
