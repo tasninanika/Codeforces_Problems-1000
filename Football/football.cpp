@@ -20,6 +20,7 @@ int main() {
         }
         else{
             team2 = teams[i];
+            c2++;
         }
     }
 
