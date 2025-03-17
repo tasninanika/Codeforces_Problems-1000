@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int n;
+    int n, c1 = 0, c2 = 0;
     cin >> n;
 
     string teams[n];
