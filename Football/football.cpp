@@ -12,6 +12,8 @@ int main() {
 
     }
 
+    string team1 = teams[0], team2 = " ";
+
     return 0;
 }
 
