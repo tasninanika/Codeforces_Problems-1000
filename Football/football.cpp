@@ -6,9 +6,10 @@ int main() {
     int n;
     cin >> n;
 
-    string teams[2];
-    for(int i = 0; i < 2; i++){
+    string teams[n];
+    for(int i = 0; i < n; i++){
         cin >> teams[i];
+
     }
 
     return 0;
