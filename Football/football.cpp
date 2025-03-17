@@ -27,6 +27,9 @@ int main() {
     if(c1 > c2){
         cout << team1 << endl;
     }
+    else{
+        cout << team2 << endl;
+    }
 
     return 0;
 }
