@@ -18,6 +18,9 @@ int main() {
         if(teams[0] == team1){
             c1++;
         }
+        else{
+            team2 = teams[i];
+        }
     }
 
     return 0;
