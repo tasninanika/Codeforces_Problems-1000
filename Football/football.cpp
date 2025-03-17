@@ -16,7 +16,7 @@ int main() {
 
     for(int i = 0; i < n; i++){
         if(teams[0] == team1){
-
+            c1++;
         }
     }
 
