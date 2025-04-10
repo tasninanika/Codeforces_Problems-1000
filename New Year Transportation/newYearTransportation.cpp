@@ -16,7 +16,7 @@ int main(){
     }
 
     if(c == t){
-
+        cout << "YES" << endl;
     }
 
     return 0;
