@@ -15,5 +15,9 @@ int main(){
         c += a[i];
     }
 
+    if(c == t){
+
+    }
+
     return 0;
 }
