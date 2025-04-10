@@ -5,5 +5,7 @@ int main(){
     int n, t;
     cin >> n >> t;
 
+    int a[n];
+
     return 0;
 }
