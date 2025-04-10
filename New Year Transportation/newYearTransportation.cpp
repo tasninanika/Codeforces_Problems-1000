@@ -6,13 +6,13 @@ int main(){
     cin >> n >> t;
 
     int a[n];
-    for(int i = 0; i < n; i++){
+    for(int i = 1; i < n; i++){
         cin >> a[i];
     }
 
     int c = 1;
-    for(int i = 0; i < t; i++){
-        c += a[i];
+    while (c < t) {
+        c += a[c];
     }
 
     if(c == t){
