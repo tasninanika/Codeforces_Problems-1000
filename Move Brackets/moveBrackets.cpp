@@ -29,6 +29,7 @@ int main(){
         }
 
         result = -result;
+        cout << result << endl;
     }
 
     return 0;
