@@ -19,6 +19,9 @@ int main(){
             if(s[i] == '('){
                 result++;
             }
+            else{
+                result--;
+            }
         }
     }
 
