@@ -11,6 +11,10 @@ int main(){
 
         string s;
         cin >> s;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
