@@ -28,8 +28,8 @@ int main(){
             }
         }
 
-        result = -result;
-        cout << result << endl;
+        int moves = -mini_num;
+        cout << moves << endl;
     }
 
     return 0;
