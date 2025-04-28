@@ -27,6 +27,8 @@ int main(){
                 mini_num = result;
             }
         }
+
+        result = -result;
     }
 
     return 0;
