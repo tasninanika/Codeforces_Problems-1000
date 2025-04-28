@@ -24,7 +24,7 @@ int main(){
             }
 
             if(result < mini_num){
-
+                mini_num = result;
             }
         }
     }
