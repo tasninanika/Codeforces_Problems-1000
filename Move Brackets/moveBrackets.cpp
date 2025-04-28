@@ -22,6 +22,10 @@ int main(){
             else{
                 result--;
             }
+
+            if(result < mini_num){
+
+            }
         }
     }
 
