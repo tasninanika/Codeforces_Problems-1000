@@ -6,9 +6,9 @@ int main(){
     cin >> a >> b;
 
     int c = a + (a / b);
-    int total_candles = ((a / b) / b) + c;
+    int total_hours = ((a / b) / b) + c;
 
-    cout << total_candles << endl;
+    cout << total_hours << endl;
 
     return 0;
 }
