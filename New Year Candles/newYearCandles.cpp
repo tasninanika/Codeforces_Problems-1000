@@ -6,6 +6,7 @@ int main(){
     cin >> a >> b;
 
     int c = a + (a / b);
+    int total_candles = ((a / b) / b) + c;
 
     return 0;
 }
