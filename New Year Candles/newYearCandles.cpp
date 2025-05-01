@@ -8,5 +8,7 @@ int main(){
     int c = a + (a / b);
     int total_candles = ((a / b) / b) + c;
 
+    cout << total_candles << endl;
+
     return 0;
 }
