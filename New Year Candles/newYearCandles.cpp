@@ -8,6 +8,10 @@ int main(){
     int candle = a;
     int total_hours = a;
 
+    while(candle >= b){
+
+    }
+
     cout << total_hours << endl;
 
     return 0;
