@@ -10,6 +10,7 @@ int main(){
 
     while(candle >= b){
         int new_candles = candle / b;
+        total_hours += new_candles;
 
     }
 
