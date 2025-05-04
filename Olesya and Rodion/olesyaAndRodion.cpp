@@ -8,7 +8,9 @@ int main(){
     int s = pow(10, n - 1);
     int e = pow(10, n);
 
-    for(int i = s; i < e; i++)
+    for(int i = s; i < e; i++){
+
+    }
 
 
     return 0;
