@@ -5,8 +5,10 @@ int main(){
     int n, t;
     cin >> n >> t;
 
-    int start = pow(10, n - 1);
-    int end = pow(10, n);
+    int s = pow(10, n - 1);
+    int e = pow(10, n);
+
+    for(int i = s; i < e; i++)
 
 
     return 0;
