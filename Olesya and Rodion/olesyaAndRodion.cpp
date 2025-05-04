@@ -11,6 +11,7 @@ int main(){
     for(int i = s; i < e; i++){
         if(i % t == 0){
             cout << i << endl;
+            return 0;
         }
     }
 
