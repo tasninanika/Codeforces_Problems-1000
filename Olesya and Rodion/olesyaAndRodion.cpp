@@ -1,22 +1,25 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     int n, t;
     cin >> n >> t;
 
-    int s = pow(10, n - 1);
-    int e = pow(10, n);
-
-    for(int i = s; i < e; i++){
-        if(i % t == 0){
-            cout << i << endl;
-            return 0;
-        }
+    if(n == 1 && t == 10) {
+        cout << "-1\n";
     }
-
-    cout << -1 << endl;
-
+    else if(n >= 2 && t == 10) {
+        for(int i = 1; i < n; i++) {
+            cout << "1";
+        }
+        cout << "0\n";
+    }
+    else {
+        for(int i = 1; i <= n; i++) {
+            cout << t;
+        }
+        cout << endl;
+    }
 
     return 0;
 }
