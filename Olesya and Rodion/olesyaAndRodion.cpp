@@ -9,7 +9,9 @@ int main(){
     int e = pow(10, n);
 
     for(int i = s; i < e; i++){
+        if(i % t == 0){
 
+        }
     }
 
 
