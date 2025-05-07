@@ -5,6 +5,8 @@ int main(){
     int n, m;
     cin >> n >> m;
 
+    int moves = (n + 1) / 2;
+
 
     return 0;
 }
