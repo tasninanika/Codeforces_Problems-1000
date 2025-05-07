@@ -9,7 +9,7 @@ int main(){
 
     for(int i = moves; i <= n; i++){
         if(i % m == 0){
-
+            cout << i << endl;
         }
     }
 
