@@ -8,7 +8,9 @@ int main(){
     int moves = (n + 1) / 2;
 
     for(int i = moves; i <= n; i++){
+        if(i % m == 0){
 
+        }
     }
 
 
