@@ -20,6 +20,9 @@ int main(){
     else if(n % 4 == 2){
         cout << "4" << endl;
     }
+    else if(n % 4 == 3){
+
+    }
 
 
     return 0;
