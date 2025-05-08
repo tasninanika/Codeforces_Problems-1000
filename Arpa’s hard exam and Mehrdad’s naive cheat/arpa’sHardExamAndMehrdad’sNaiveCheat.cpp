@@ -18,7 +18,7 @@ int main(){
         cout << "8" << endl;
     }
     else if(n % 4 == 3){
-
+        cout << "4" << endl;
     }
 
     return 0;
