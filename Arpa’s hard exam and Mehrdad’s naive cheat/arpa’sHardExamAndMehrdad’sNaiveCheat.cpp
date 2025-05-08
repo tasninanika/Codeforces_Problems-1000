@@ -9,7 +9,10 @@ int main(){
         cout << 1 << endl;
         return 0;
     }
-    else{
+
+
+    if(n % 4 == 0){
+
     }
 
     return 0;
