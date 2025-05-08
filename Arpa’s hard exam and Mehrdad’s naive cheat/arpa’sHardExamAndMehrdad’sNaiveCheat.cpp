@@ -6,7 +6,7 @@ int main(){
     cin >> n;
 
     if(n == 0){
-
+        cout << 1 << endl;
     }
 
     return 0;
