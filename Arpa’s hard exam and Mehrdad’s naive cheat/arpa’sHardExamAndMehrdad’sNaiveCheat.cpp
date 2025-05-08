@@ -7,6 +7,9 @@ int main(){
 
     if(n == 0){
         cout << 1 << endl;
+        return 0;
+    }
+    else{
     }
 
     return 0;
