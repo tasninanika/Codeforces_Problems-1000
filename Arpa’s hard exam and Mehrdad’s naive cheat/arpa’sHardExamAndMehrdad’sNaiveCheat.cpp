@@ -14,6 +14,9 @@ int main(){
     if(n % 4 == 0){
         cout << "6" << endl;
     }
+    else if(n % 4 == 1){
+
+    }
 
     return 0;
 }
