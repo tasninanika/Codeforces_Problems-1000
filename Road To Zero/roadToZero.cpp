@@ -17,6 +17,8 @@ int main(){
         ans1 = x * a + y * a;
         long long z = y - x;
         ans2 = z * a + x * b;
+
+        cout << min(ans1, ans2) << endl;
     }
 
 
