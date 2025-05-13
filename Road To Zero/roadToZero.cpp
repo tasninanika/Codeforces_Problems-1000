@@ -13,6 +13,7 @@ int main(){
         if(x > y){
             swap(x, y);
         }
+        long long ans1 = 0, ans2 = 0;
     }
 
 
