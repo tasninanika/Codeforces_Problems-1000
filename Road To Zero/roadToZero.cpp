@@ -11,7 +11,7 @@ int main(){
         cin >> x >> y >> a >> b;
 
         if(x > y){
-
+            swap(x, y);
         }
     }
 
