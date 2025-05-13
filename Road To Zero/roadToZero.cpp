@@ -8,7 +8,7 @@ int main(){
     long long x, y, a, b;
 
     while(t--){
-
+        cin >> x >> y >> a >> b;
     }
 
 
