@@ -7,6 +7,10 @@ int main(){
 
     long long x, y, a, b;
 
+    while(t--){
+
+    }
+
 
     return 0;
 }
