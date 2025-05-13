@@ -16,6 +16,7 @@ int main(){
         long long ans1 = 0, ans2 = 0;
         ans1 = x * a + y * a;
         long long z = y - x;
+        ans2 = z * a + x * b;
     }
 
 
