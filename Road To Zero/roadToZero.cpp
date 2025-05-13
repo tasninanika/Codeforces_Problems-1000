@@ -9,6 +9,10 @@ int main(){
 
     while(t--){
         cin >> x >> y >> a >> b;
+
+        if(x > y){
+
+        }
     }
 
 
