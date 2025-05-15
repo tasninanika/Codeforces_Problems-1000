@@ -5,7 +5,9 @@ int main(){
     int n, x, c = 0;
     cin >> n >> x;
 
-    for(int i = 1; i <= n; i++)
+    for(int i = 1; i <= n; i++){
+        if
+    }
 
     return 0;
 }
