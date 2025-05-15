@@ -6,7 +6,7 @@ int main(){
     cin >> n >> x;
 
     for(int i = 1; i <= n; i++){
-        if
+        if(x % i == 0 and x / i <= n)
     }
 
     return 0;
