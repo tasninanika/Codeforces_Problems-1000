@@ -7,7 +7,7 @@ int main(){
 
     for(int i = 1; i <= n; i++){
         if(x % i == 0 and x / i <= n){
-
+            c++;
         }
     }
 
