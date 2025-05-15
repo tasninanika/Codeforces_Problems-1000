@@ -5,7 +5,7 @@ int main(){
     int n, x, c = 0;
     cin >> n >> x;
 
-    for(int i = 1;)
+    for(int i = 1; i )
 
     return 0;
 }
