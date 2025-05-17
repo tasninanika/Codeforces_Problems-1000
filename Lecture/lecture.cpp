@@ -20,7 +20,7 @@ int main(){
         y = t[x];
 
         if(y.size() < x.size()){
-
+            cout << y << " ";
         }
     }
 
