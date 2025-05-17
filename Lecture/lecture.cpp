@@ -6,6 +6,9 @@ int main(){
     cin >> n >> m;
 
     map <string, string> t;
+    for(int i = 0; i < m; i++){
+
+    }
 
 
     return 0;
