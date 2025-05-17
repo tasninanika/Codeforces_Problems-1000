@@ -8,6 +8,7 @@ int main(){
     map <string, string> t;
     for(int i = 0; i < m; i++){
         string a, b;
+        cin >> a >> b;
     }
 
 
