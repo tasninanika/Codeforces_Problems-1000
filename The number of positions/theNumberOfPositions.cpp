@@ -5,7 +5,9 @@ int main(){
     int n, a, b;
     cin >> n >> a >> b;
 
-    cout << min(n - a, b + 1) << endl;
+    int result = min(n - a, b + 1);
+
+    cout <<  << endl;
 
 
     return 0;
