@@ -23,7 +23,7 @@ int main(){
             cout << y << " ";
         }
         else{
-
+            cout << x << " ";
         }
     }
 
