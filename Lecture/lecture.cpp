@@ -22,6 +22,9 @@ int main(){
         if(y.size() < x.size()){
             cout << y << " ";
         }
+        else{
+
+        }
     }
 
 
