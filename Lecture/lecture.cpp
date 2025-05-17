@@ -17,6 +17,7 @@ int main(){
         cin >> x;
 
         string y;
+        y = t[x];
     }
 
 
