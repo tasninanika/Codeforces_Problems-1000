@@ -7,7 +7,7 @@ int main(){
 
     int result = min(n - a, b + 1);
 
-    cout <<  << endl;
+    cout << result << endl;
 
 
     return 0;
