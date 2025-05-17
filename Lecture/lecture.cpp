@@ -18,6 +18,10 @@ int main(){
 
         string y;
         y = t[x];
+
+        if(y.size() < x.size()){
+
+        }
     }
 
 
