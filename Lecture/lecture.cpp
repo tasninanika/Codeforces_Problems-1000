@@ -9,6 +9,7 @@ int main(){
     for(int i = 0; i < m; i++){
         string a, b;
         cin >> a >> b;
+        t[a] = b;
     }
 
 
