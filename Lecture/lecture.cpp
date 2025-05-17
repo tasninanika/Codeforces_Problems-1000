@@ -15,6 +15,8 @@ int main(){
     for(int i = 0; i < n; i++){
         string x;
         cin >> x;
+
+        string y;
     }
 
 
