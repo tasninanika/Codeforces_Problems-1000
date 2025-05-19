@@ -6,7 +6,8 @@ int main(){
     cin >> t;
 
     while(t--){
-
+        long long a, b;
+        cin >> a >> b;
     }
 
 
