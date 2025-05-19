@@ -8,6 +8,10 @@ int main(){
     while(t--){
         long long int n, k, r;
         cin >> n >> k;
+
+        if(n % k == 0){
+
+        }
     }
 
     return 0;
