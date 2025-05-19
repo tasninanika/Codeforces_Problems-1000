@@ -5,5 +5,9 @@ int main(){
     long long int t;
     cin >> t;
 
+    while(t--){
+
+    }
+
     return 0;
 }
