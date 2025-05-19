@@ -18,6 +18,9 @@ int main(){
         else if(n > k){
             cout << "2" << endl;
         }
+        else{
+            cout << (k / n) + 1 << endl;
+        }
     }
 
     return 0;
