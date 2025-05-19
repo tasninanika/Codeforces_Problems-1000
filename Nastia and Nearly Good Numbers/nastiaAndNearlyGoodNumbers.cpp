@@ -8,6 +8,10 @@ int main(){
     while(t--){
         long long a, b;
         cin >> a >> b;
+
+        if(b == 1){
+            cout << "NO" << endl;
+        }
     }
 
 
