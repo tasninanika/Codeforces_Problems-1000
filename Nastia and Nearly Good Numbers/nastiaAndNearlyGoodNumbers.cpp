@@ -6,7 +6,7 @@ int main(){
     cin >> t;
 
     while(t--){
-        long long a, b;
+        long long int a, b;
         cin >> a >> b;
 
         if(b == 1){
@@ -14,8 +14,8 @@ int main(){
         }
         else{
             cout << "YES" << endl;
-            long long sum = (a * b * 2);
-            long long y = sum - a;
+            long long int sum = (a * b * 2);
+            long long int y = sum - a;
             cout << a << " " << y << " " << sum << endl;
         }
     }
