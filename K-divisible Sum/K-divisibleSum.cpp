@@ -13,7 +13,7 @@ int main(){
             cout << "1" << endl;
         }
         else if(k % n == 0){
-
+            cout << k / n << endl;
         }
     }
 
