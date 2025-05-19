@@ -15,6 +15,9 @@ int main(){
         else if(k % n == 0){
             cout << k / n << endl;
         }
+        else if(n > k){
+
+        }
     }
 
     return 0;
