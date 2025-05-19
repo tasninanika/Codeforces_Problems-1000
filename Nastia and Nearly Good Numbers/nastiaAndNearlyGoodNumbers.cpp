@@ -15,6 +15,8 @@ int main(){
         else{
             cout << "YES" << endl;
             long long sum = (a * b * 2);
+            long long y = sum - a;
+            cout << a << " " << y << " " << sum << endl;
         }
     }
 
