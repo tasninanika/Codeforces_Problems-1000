@@ -10,7 +10,7 @@ int main(){
         cin >> n >> k;
 
         if(n % k == 0){
-
+            cout << "1" << endl;
         }
     }
 
