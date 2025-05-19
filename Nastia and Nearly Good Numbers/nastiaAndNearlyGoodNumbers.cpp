@@ -19,7 +19,5 @@ int main(){
             cout << a << " " << y << " " << sum << endl;
         }
     }
-
-
     return 0;
 }
