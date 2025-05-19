@@ -12,6 +12,9 @@ int main(){
         if(n % k == 0){
             cout << "1" << endl;
         }
+        else if(k % n == 0){
+
+        }
     }
 
     return 0;
