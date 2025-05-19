@@ -16,7 +16,7 @@ int main(){
             cout << k / n << endl;
         }
         else if(n > k){
-
+            cout << "2" << endl;
         }
     }
 
