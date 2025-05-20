@@ -15,7 +15,7 @@ int main(){
 
         if (turns >= maxTurns) {
             maxTurns = turns;
-
+            winnerIndex = i + 1;
     }
 
 
