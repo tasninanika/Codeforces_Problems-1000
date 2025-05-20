@@ -11,6 +11,7 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> candies[i];
 
+        int turns = (candies[i] + m - 1) / m;
     }
 
 
