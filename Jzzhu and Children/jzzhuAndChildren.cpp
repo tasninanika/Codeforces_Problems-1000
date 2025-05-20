@@ -6,6 +6,7 @@ int main(){
     cin >> n >> m;
 
     int a[n];
+    int index[100 + 1];
 
 
     return 0;
