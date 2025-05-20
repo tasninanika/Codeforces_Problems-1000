@@ -14,6 +14,7 @@ int main(){
         int turns = (candies[i] + m - 1) / m;
 
         if (turns >= maxTurns) {
+            maxTurns = turns;
 
     }
 
