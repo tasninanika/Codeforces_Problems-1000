@@ -2,13 +2,10 @@
 using namespace std;
 
 int main(){
-    int n, m, last, in;
+    int n, m;
     cin >> n >> m;
 
-    int a[n];
-    int index[100 + 1];
 
-    queue<int>q;
     for(int i = 0; i < n; i++){
 
     }
