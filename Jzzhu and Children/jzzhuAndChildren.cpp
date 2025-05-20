@@ -9,6 +9,7 @@ int main(){
     int maxTurns = 0, winnerIndex = 0;
 
     for(int i = 0; i < n; i++){
+        cin >> candies[i];
 
     }
 
