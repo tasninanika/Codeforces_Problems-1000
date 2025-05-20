@@ -6,6 +6,7 @@ int main(){
     cin >> n >> m;
 
     vector<int> candies(n);
+    int maxTurns = 0, winnerIndex = 0;
 
     for(int i = 0; i < n; i++){
 
