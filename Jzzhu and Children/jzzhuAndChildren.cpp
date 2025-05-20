@@ -9,6 +9,9 @@ int main(){
     int index[100 + 1];
 
     queue<int>q;
+    for(int i = 0; i < n; i++){
+
+    }
 
 
     return 0;
