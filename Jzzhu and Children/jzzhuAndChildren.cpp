@@ -12,6 +12,9 @@ int main(){
         cin >> candies[i];
 
         int turns = (candies[i] + m - 1) / m;
+
+        if (turns >= maxTurns) {
+
     }
 
 
