@@ -8,6 +8,8 @@ int main(){
     int a[n];
     int index[100 + 1];
 
+    queue<int>q;
+
 
     return 0;
 }
