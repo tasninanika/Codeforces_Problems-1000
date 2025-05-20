@@ -19,6 +19,7 @@ int main(){
         }
     }
 
+    cout << winnerIndex << endl;
 
     return 0;
 }
