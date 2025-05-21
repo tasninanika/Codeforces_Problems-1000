@@ -5,7 +5,10 @@ int main(){
     int t,n,f,s,k,x,y;
     cin >> t;
 
-    while(t--)
+    while(t--){
+
+
+    }
 
 
     return 0;
