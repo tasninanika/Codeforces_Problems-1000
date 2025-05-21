@@ -24,9 +24,6 @@ int main(){
             cout << "NO" << endl;
         }
 
-
-
-
     }
 
 
