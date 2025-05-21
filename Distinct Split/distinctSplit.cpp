@@ -11,6 +11,9 @@ int main(){
 
         string s;
         cin >> s;
+
+        map<char, long long> rightFreq;
+
     }
 
     return 0;
