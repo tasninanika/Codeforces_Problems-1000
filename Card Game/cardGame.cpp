@@ -1,29 +1,22 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main(){
-    int t,n,f,s,k,x,y;
+int main() {
+    int t;
     cin >> t;
 
-    while(t--){
-        x = 0, y = 0;
-        cin >> n >> f >> s;
+    while (t--) {
+        int a, b, c, d;
+        cin >> a >> b >> c >> d;
 
-        for(int i = 0; i < f; i++){
-            cin >> k;
-            x = max(x,k);
+        int res = 0;
+
+        if ((a > c && b > d) || (a > d && b > c)) {
+            res = 2;
         }
-        for(int i = 0; i < s; i++){
-            cin >> k;
-            y = max(y,k);
-        }
-        if(x > y){
-            cout << "YES" << endl;
-        }
-        else{
-            cout << "NO" << endl;
-        }
+
+        cout << res << endl;
     }
+
     return 0;
 }
-
