@@ -16,8 +16,9 @@ int main(){
         for(int i = 0; i < s; i++){
             cin >> k;
             y = max(y,k);
-
         }
+        if(x>y)
+
 
 
 
