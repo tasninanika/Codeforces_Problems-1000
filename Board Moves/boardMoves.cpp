@@ -14,6 +14,7 @@ int main(){
             ans += temp * i;
             temp += 8;
         }
+        cout << ans << endl;
     }
 
 
