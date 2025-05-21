@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long n;
         cin >> n;
+
+        long long ans = 0, temp = 8;
     }
 
 
