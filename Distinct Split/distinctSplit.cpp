@@ -13,7 +13,9 @@ int main(){
         cin >> s;
 
         map<char, long long> rightFreq;
-
+        for (int i = 0; i < n; i++) {
+            rightFreq[s[i]]++;
+        }
     }
 
     return 0;
