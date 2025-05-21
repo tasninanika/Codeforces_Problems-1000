@@ -9,6 +9,8 @@ int main(){
         x = 0, y = 0;
         cin >> n >> f >> s;
 
+        for(int i = 0; i < f; i++)
+
 
     }
 
