@@ -18,7 +18,10 @@ int main(){
             y = max(y,k);
         }
         if(x > y){
-            cout<<"YES"<<endl;
+            cout << "YES" << endl;
+        }
+        else{
+
         }
 
 
