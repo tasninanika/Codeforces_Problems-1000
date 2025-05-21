@@ -28,6 +28,9 @@ int main(){
             if (rightFreq[ch] == 0) {
                 rightFreq.erase(ch);
             }
+
+            long long totalUnique = leftFreq.size() + rightFreq.size();
+
     }
 
     return 0;
