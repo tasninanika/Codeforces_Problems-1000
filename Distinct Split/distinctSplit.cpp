@@ -21,6 +21,7 @@ int main(){
         long long maxUnique = 0;
 
         for (int i = 0; i < n; i++) {
+            char ch = s[i];
 
     }
 
