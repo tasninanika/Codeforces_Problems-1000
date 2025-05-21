@@ -10,6 +10,7 @@ int main(){
         cin >> n >> f >> s;
 
         for(int i = 0; i < f; i++){
+            cin >> k;
 
         }
 
