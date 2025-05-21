@@ -11,6 +11,7 @@ int main(){
 
         for(int i = 0; i < f; i++){
             cin >> k;
+            x = max(x,k);
 
         }
 
