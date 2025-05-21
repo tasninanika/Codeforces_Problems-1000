@@ -17,7 +17,9 @@ int main(){
             cin >> k;
             y = max(y,k);
         }
-        if(x>y)
+        if(x > y){
+            cout<<"YES"<<endl;
+        }
 
 
 
