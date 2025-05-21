@@ -24,6 +24,10 @@ int main(){
             char ch = s[i];
             leftFreq[ch]++;
             rightFreq[ch]--;
+
+            if (rightFreq[ch] == 0) {
+                rightFreq.erase(ch);
+            }
     }
 
     return 0;
