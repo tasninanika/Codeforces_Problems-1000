@@ -18,6 +18,7 @@ int main(){
         }
 
         map<char, long long> leftFreq;
+        long long maxUnique = 0;
 
     }
 
