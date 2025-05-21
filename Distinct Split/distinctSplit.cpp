@@ -30,6 +30,7 @@ int main(){
             }
 
             long long totalUnique = leftFreq.size() + rightFreq.size();
+            maxUnique = max(maxUnique, totalUnique);
 
     }
 
