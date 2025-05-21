@@ -14,6 +14,7 @@ int main(){
             x = max(x,k);
         }
         for(int i = 0; i < s; i++){
+            cin >> k;
 
         }
 
