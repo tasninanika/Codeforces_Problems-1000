@@ -20,6 +20,8 @@ int main(){
         map<char, long long> leftFreq;
         long long maxUnique = 0;
 
+        for (int i = 0; i < n; i++) {
+
     }
 
     return 0;
