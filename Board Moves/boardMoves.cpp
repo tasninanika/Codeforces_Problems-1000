@@ -10,6 +10,9 @@ int main(){
         cin >> n;
 
         long long ans = 0, temp = 8;
+        for(int i = 1; i <= n/2; i++){
+
+        }
     }
 
 
