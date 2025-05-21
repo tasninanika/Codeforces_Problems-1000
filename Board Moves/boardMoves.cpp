@@ -12,6 +12,7 @@ int main(){
         long long ans = 0, temp = 8;
         for(int i = 1; i <= n/2; i++){
             ans += temp * i;
+            temp += 8;
         }
     }
 
