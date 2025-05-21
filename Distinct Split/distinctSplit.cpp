@@ -22,7 +22,8 @@ int main(){
 
         for (int i = 0; i < n; i++) {
             char ch = s[i];
-
+            leftFreq[ch]++;
+            rightFreq[ch]--;
     }
 
     return 0;
