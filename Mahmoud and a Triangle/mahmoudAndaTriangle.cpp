@@ -23,6 +23,10 @@ int main(){
             a = v[j];
             b = v[j + 1];
             c = v[j + 2];
+
+            if(a + b > c && b + c > a && c + a > b){
+
+            }
         }
 
 
