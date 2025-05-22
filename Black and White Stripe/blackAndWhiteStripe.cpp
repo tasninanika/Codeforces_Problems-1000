@@ -16,10 +16,10 @@ int main(){
             curr = 1;
         }
         preSum[i] = preSum[i - 1] + curr;
-
-
-
     }
+
+    long long res = INT_MAX;
+
 
     return 0;
 }
