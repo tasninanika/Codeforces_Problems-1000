@@ -25,7 +25,7 @@ int main(){
             c = v[j + 2];
 
             if(a + b > c && b + c > a && c + a > b){
-
+                check = 1;
             }
         }
 
