@@ -1,36 +1,33 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int n;
-    cin >> n;
 
-    while(cin >> n){
-        vector<int> v;
-        int x;
+    while (cin >> n) {
+        vector<int> v(n);
 
-        for(int i = 0; i < n; i++){
-            cin >> x;
-            v.push_back(x);
+        for (int i = 0; i < n; i++) {
+            cin >> v[i];
         }
 
         sort(v.begin(), v.end());
 
-        int check = 0, a, b, c;
+        int check = 0;
 
-        for (int j = 0; j < n - 2; j++){
-            a = v[j];
-            b = v[j + 1];
-            c = v[j + 2];
+        for (int j = 0; j < n - 2; j++) {
+            int a = v[j];
+            int b = v[j + 1];
+            int c = v[j + 2];
 
-            if(a + b > c && b + c > a && c + a > b){
+            if (a + b > c && b + c > a && c + a > b) {
                 check = 1;
                 cout << "YES" << endl;
                 break;
             }
         }
 
-        if(check == 0){
+        if (check == 0) {
             cout << "NO" << endl;
         }
     }
