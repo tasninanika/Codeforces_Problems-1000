@@ -6,7 +6,7 @@ int main(){
     cin >> n;
 
     while(cin >> n){
-        vector<int> v(n);
+        vector<int> v;
         int x;
 
         for(int i = 0; i < n; i++)
