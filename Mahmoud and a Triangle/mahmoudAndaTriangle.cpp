@@ -17,6 +17,7 @@ int main(){
 
         sort(v.begin(), v.end());
 
+        int check = 0;
 
 
     }
