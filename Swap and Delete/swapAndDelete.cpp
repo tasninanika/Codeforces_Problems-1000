@@ -16,7 +16,7 @@ int main(){
                 zero++;
             }
             else{
-
+                one++;
             }
         }
     }
