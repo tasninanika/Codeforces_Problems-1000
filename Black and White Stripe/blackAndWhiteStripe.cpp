@@ -12,6 +12,10 @@ int main(){
 
     for (int i = 1; i <= n; i++){
         long long curr = 0;
+        if (s[i - 1] == 'W'){
+            curr = 1;
+        }
+
 
     }
 
