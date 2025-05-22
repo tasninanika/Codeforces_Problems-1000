@@ -9,7 +9,7 @@ int main(){
         cout << 0 << endl;
     }
     else if(m % n != 0){
-
+        cout << -1 << endl;
     }
 
     return 0;
