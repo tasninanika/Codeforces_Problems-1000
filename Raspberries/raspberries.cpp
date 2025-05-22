@@ -27,6 +27,10 @@ int main(){
                     maxMod = r;
                 }
             }
+
+            if(r == 2){
+
+            }
         }
     }
 
