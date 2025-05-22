@@ -51,6 +51,5 @@ int main(){
             cout << k - maxMod << endl;
         }
     }
-
     return 0;
 }
