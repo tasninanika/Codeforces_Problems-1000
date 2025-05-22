@@ -24,6 +24,7 @@ int main(){
         if(d != 1){
             ans = -1;
         }
+        cout << ans << endl;
     }
 
     return 0;
