@@ -26,6 +26,7 @@ int main(){
 
             if(a + b > c && b + c > a && c + a > b){
                 check = 1;
+                cout << "YES" << endl;
             }
         }
 
