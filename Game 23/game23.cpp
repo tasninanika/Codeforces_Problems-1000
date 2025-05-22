@@ -13,6 +13,9 @@ int main(){
     }
     else{
         long long d = m / n;
+        while(d % 2 == 0){
+
+        }
     }
 
     return 0;
