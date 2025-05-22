@@ -32,7 +32,7 @@ int main(){
         }
 
         if(check == 0){
-
+            cout << "NO" << endl;
         }
 
 
