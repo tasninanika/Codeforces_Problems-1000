@@ -8,6 +8,9 @@ int main(){
     if(n == m){
         cout << 0 << endl;
     }
+    else if(m % n != 0){
+
+    }
 
     return 0;
 }
