@@ -11,6 +11,9 @@ int main(){
     else if(m % n != 0){
         cout << -1 << endl;
     }
+    else{
+        long long d = m / n;
+    }
 
     return 0;
 }
