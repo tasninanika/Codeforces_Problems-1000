@@ -22,6 +22,8 @@ int main(){
 
         int removePairs = min(zero, one);
         int remaining = s.size() - 2 * removePairs;
+
+        cout << remaining << endl;
     }
 
 
