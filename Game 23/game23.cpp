@@ -17,6 +17,9 @@ int main(){
             d /= 2;
             ans++;
         }
+        while(d % 3 == 0){
+
+        }
     }
 
     return 0;
