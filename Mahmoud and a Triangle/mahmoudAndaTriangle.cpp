@@ -17,7 +17,7 @@ int main(){
 
         sort(v.begin(), v.end());
 
-        int check = 0;
+        int check = 0, a, b, c;
 
         for (int j = 0; j < n - 2; j++){
             a = v[j];
