@@ -19,6 +19,8 @@ int main(){
                 one++;
             }
         }
+
+        int removePairs = min(zero, one);
     }
 
 
