@@ -21,6 +21,7 @@ int main(){
 
         for (int j = 0; j < n - 2; j++){
             a = v[j];
+            b = v[j + 1];
         }
 
 
