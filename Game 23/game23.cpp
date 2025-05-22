@@ -15,6 +15,7 @@ int main(){
         long long d = m / n;
         while(d % 2 == 0){
             d /= 2;
+            ans++;
         }
     }
 
