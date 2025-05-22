@@ -15,6 +15,9 @@ int main(){
             if(s[i] == '0'){
                 zero++;
             }
+            else{
+
+            }
         }
     }
 
