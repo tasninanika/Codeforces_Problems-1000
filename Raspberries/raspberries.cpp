@@ -10,6 +10,7 @@ int main(){
         cin >> n >> k;
 
         int maxMod = 0;
+        int evenCount = 0;
     }
 
 
