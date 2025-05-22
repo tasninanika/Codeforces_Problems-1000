@@ -20,6 +20,10 @@ int main(){
 
     long long res = INT_MAX;
 
+    for(int i = k; i <= n; i++){
+
+    }
+
 
     return 0;
 }
