@@ -5,27 +5,31 @@ int main(){
     int t;
     cin >> t;
 
-    while(t--){
-        string s;
-        cin >> s;
+    while (t--) {
+        string str;
+        cin >> str;
 
-        int zero = 0, one = 0;
+        int zero = count(str.begin(), str.end(), '0');
+        int one = str.size() - zero;
 
-        for(int i = 0; i < s.size(); i++){
-            if(s[i] == '0'){
-                zero++;
-            }
-            else{
-                one++;
+        for (int i = 0; i < str.size(); i++) {
+            if (str[i] == '0') {
+                if(one){
+                    one--;
+                }
+                else{
+                    break;
+                }
+            } else {
+                if(zero){
+                    zero--;
+                }
+                else{
+                    break;
+                }
             }
         }
-
-        int removePairs = min(zero, one);
-        int remaining = s.size() - 2 * removePairs;
-
-        cout << remaining << endl;
+        cout << zero + one << endl;
     }
-
-
     return 0;
 }
