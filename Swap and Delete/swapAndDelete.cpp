@@ -12,7 +12,9 @@ int main(){
         int zero = 0, one = 0;
 
         for(int i = 0; i < s.size(); i++){
+            if(s[i] == '0'){
 
+            }
         }
     }
 
