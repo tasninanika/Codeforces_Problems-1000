@@ -6,6 +6,7 @@ int main(){
     cin >> n;
 
     while(cin >> n){
+        vector<int> v(n);
 
     }
 
