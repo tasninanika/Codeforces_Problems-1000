@@ -24,7 +24,7 @@ int main(){
             }
             else{
                 if(r > maxMod){
-
+                    maxMod = r;
                 }
             }
         }
