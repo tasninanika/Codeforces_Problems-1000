@@ -18,6 +18,10 @@ int main(){
             cin >> x;
 
             int r = x % k;
+
+            if(r == 0){
+
+            }
         }
     }
 
