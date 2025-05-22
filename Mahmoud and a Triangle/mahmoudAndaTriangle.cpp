@@ -9,7 +9,7 @@ int main(){
         vector<int> v(n);
         int x;
 
-        for (i=0; i<n; i++)
+        for(int i = 0; i < n; i++)
         {
             cin >> x;
             v.push_back(x);
@@ -18,6 +18,9 @@ int main(){
         sort(v.begin(), v.end());
 
         int check = 0;
+
+        for (int j = 0; j < n - 2; j++)
+
 
 
     }
