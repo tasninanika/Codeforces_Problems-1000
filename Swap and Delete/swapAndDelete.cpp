@@ -6,8 +6,8 @@ int main(){
     cin >> t;
 
     while(t--){
-        string str;
-        cin >> str;
+        string s;
+        cin >> s;
 
         int zero = 0, one = 0;
 
