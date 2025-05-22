@@ -24,6 +24,7 @@ int main(){
         long long curr = preSum[i] - preSum[i - k];
         res = min(res, curr);
     }
+    cout << res << nline;
 
 
     return 0;
