@@ -10,7 +10,9 @@ int main(){
 
     vector<long long> preSum(n + 1);
 
+    for (int i = 1; i <= n; i++){
 
+    }
 
     return 0;
 }
