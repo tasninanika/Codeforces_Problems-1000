@@ -40,6 +40,9 @@ int main(){
             if(evenCount >= 2){
                 cout << 0 << endl;
             }
+            else if(evenCount == 1 || maxMod == 3){
+
+            }
         }
     }
 
