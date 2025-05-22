@@ -7,6 +7,7 @@ int main(){
 
     while(cin >> n){
         vector<int> v(n);
+        int x;
 
         for (i=0; i<n; i++)
         {
@@ -15,6 +16,8 @@ int main(){
         }
 
         sort(v.begin(), v.end());
+
+
 
     }
 
