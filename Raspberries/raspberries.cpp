@@ -48,7 +48,7 @@ int main(){
             }
         }
         else{
-
+            cout << k - maxMod << endl;
         }
     }
 
