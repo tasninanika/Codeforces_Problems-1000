@@ -8,6 +8,8 @@ int main(){
     string s;
     cin >> s;
 
+    vector<long long> preSum(n + 1);
+
 
 
     return 0;
