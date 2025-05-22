@@ -22,7 +22,7 @@ int main(){
             ans++;
         }
         if(d != 1){
-
+            ans = -1;
         }
     }
 
