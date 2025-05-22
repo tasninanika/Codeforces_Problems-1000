@@ -21,7 +21,8 @@ int main(){
     long long res = INT_MAX;
 
     for(int i = k; i <= n; i++){
-
+        long long curr = preSum[i] - preSum[i - k];
+        res = min(res, curr);
     }
 
 
