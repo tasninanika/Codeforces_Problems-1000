@@ -37,7 +37,9 @@ int main(){
             cout << 0 << endl;
         }
         else if(k == 4){
+            if(evenCount >= 2){
 
+            }
         }
     }
 
