@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+    long long t;
     long long n, k;
     cin >> n >> k;
 
