@@ -23,7 +23,9 @@ int main(){
                 divisible = 1;
             }
             else{
+                if(r > maxMod){
 
+                }
             }
         }
     }
