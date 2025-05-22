@@ -11,6 +11,7 @@ int main(){
 
         int maxMod = 0;
         int evenCount = 0;
+        int divisible = 0;
     }
 
 
