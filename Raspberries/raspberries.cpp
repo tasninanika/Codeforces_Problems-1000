@@ -20,7 +20,7 @@ int main(){
             int r = x % k;
 
             if(r == 0){
-
+                divisible = 1;
             }
         }
     }
