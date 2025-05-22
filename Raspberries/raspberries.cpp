@@ -22,6 +22,9 @@ int main(){
             if(r == 0){
                 divisible = 1;
             }
+            else{
+
+            }
         }
     }
 
