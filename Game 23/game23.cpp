@@ -18,7 +18,7 @@ int main(){
             ans++;
         }
         while(d % 3 == 0){
-
+            d /= 2;
         }
     }
 
