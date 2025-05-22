@@ -36,6 +36,9 @@ int main(){
         if(divisible == 1){
             cout << 0 << endl;
         }
+        else if(k == 4){
+
+        }
     }
 
 
