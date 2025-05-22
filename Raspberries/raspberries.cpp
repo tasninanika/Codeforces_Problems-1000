@@ -12,6 +12,10 @@ int main(){
         int maxMod = 0;
         int evenCount = 0;
         int divisible = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
