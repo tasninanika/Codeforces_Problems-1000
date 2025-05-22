@@ -29,7 +29,7 @@ int main(){
             }
 
             if(r == 2){
-
+                evenCount++;
             }
         }
     }
