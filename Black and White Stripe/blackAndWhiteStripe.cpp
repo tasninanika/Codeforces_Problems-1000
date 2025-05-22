@@ -15,6 +15,8 @@ int main(){
         if (s[i - 1] == 'W'){
             curr = 1;
         }
+        preSum[i] = preSum[i - 1] + curr;
+
 
 
     }
