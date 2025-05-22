@@ -21,6 +21,9 @@ int main(){
             d /= 2;
             ans++;
         }
+        if(d != 1){
+
+        }
     }
 
     return 0;
