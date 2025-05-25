@@ -10,6 +10,7 @@ int main(){
         cin >> n >> k >> q;
 
         int t[n];
+        int d = 0;
     }
 
     return 0;
