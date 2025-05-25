@@ -23,6 +23,7 @@ int main(){
                 ans += max(0, d - k + 1);
             }
         }
+        cout << ans << endl;
     }
 
     return 0;
