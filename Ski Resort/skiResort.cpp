@@ -12,6 +12,10 @@ int main(){
         int t[n];
         int d = 0;
         long long ans = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
