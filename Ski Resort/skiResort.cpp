@@ -11,6 +11,7 @@ int main(){
 
         int t[n];
         int d = 0;
+        long long ans = 0;
     }
 
     return 0;
