@@ -20,8 +20,8 @@ int main(){
             }
             else{
                 d = 0;
-                ans += max(0, d - k + 1);
             }
+            ans += max(0, d - k + 1);
         }
         cout << ans << endl;
     }
