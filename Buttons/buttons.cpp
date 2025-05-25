@@ -7,6 +7,8 @@ int main(){
 
     long long result = (n - 1) * n * (n + 1) / 6 + n;
 
+    cout << result << endl;
+
 
 
 }
