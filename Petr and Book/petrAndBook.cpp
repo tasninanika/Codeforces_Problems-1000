@@ -18,7 +18,7 @@ int main(){
         t += a[i];
     }
 
-    cout << day + 1 << endl;
+    cout << i + 1 << endl;
 
 
     return 0;
