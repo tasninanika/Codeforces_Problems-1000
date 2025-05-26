@@ -14,7 +14,7 @@ int main(){
     int done = 0;
 
     while(done < n){
-
+        done += a[day];
     }
 
 
