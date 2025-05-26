@@ -13,6 +13,10 @@ int main(){
     int day = 0;
     int done = 0;
 
+    while(done < n){
+
+    }
+
 
     return 0;
 }
