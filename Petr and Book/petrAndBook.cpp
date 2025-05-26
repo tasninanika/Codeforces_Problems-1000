@@ -14,7 +14,7 @@ int main(){
 
     while(t < n){
         i++;
-        day++;
+        i %= 7;
         if(day == 7){
             day = 0;
         }
