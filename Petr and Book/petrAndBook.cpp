@@ -10,7 +10,7 @@ int main(){
         cin >> a[i];
     }
 
-    int day = 0;
+    int t = a[0];
     int done = 0;
 
     while(done < n){
