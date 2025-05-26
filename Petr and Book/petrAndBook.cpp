@@ -13,7 +13,7 @@ int main(){
     int t = a[0];
 
     while(t < n){
-        done += a[day];
+        i++;
         day++;
         if(day == 7){
             day = 0;
