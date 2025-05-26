@@ -11,14 +11,15 @@ int main(){
     }
 
     int t = a[0];
+    int day = 0;
 
     while(t < n){
-        i++;
-        i %= 7;
-        t += a[i];
+        day++;
+        day %= 7;
+        t += a[day];
     }
 
-    cout << i + 1 << endl;
+    cout << day + 1 << endl;
 
 
     return 0;
