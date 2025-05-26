@@ -21,6 +21,8 @@ int main(){
         }
     }
 
+    cout << day + 1 << endl;
+
 
     return 0;
 }
