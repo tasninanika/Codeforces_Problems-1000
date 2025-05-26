@@ -10,6 +10,8 @@ int main(){
         cin >> a[i];
     }
 
+    int day = 0;
+
 
     return 0;
 }
