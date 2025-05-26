@@ -17,7 +17,7 @@ int main(){
         done += a[day];
         day++;
         if(day == 7){
-
+            day = 0;
         }
     }
 
