@@ -11,6 +11,7 @@ int main(){
     }
 
     int day = 0;
+    int done = 0;
 
 
     return 0;
