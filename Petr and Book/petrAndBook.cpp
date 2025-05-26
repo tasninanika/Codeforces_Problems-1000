@@ -11,9 +11,8 @@ int main(){
     }
 
     int t = a[0];
-    int done = 0;
 
-    while(done < n){
+    while(t < n){
         done += a[day];
         day++;
         if(day == 7){
