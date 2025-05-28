@@ -7,7 +7,7 @@ int main(){
 
     string s2 = s;
 
-    reverse(s2.begin(). s2.end());
+    reverse(s2.begin(), s2.end());
     string s3 = s2 + s;
 
     cout << s3 << endl;
