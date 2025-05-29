@@ -9,7 +9,7 @@ int main(){
         cout << 0 << endl;
     }
     else{
-
+        long long ans = pow(2, n / 2);
     }
 
 
