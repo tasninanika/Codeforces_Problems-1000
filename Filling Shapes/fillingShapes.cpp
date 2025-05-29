@@ -6,7 +6,7 @@ int main(){
     cin >> n;
 
     if(n % 2 == 1){
-
+        cout << 0 << endl;
     }
 
 
