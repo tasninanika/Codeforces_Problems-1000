@@ -10,6 +10,7 @@ int main(){
     }
     else{
         long long ans = pow(2, n / 2);
+        cout << ans << endl;
     }
 
 
