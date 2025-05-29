@@ -8,6 +8,9 @@ int main(){
     if(n % 2 == 1){
         cout << 0 << endl;
     }
+    else{
+
+    }
 
 
     return 0;
