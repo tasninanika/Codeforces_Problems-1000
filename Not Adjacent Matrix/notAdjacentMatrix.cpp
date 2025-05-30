@@ -21,7 +21,7 @@ int main(){
             cout << "1 8 5" << endl;
         }
         else{
-
+            int k = 1;
         }
     }
 
