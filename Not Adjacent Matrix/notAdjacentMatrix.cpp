@@ -13,7 +13,7 @@ int main(){
             cout << "-1" << endl;
         }
         else if(n == 2){
-
+            cout << "-1" << endl;
         }
     }
 
