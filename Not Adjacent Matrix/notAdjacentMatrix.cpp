@@ -35,8 +35,7 @@ int main(){
                         cout << k++ << " ";
                     }
                     else{
-
-                    }
+                        cout << l++ << " ";                    }
                 }
             }
         }
