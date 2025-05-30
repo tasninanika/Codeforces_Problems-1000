@@ -17,6 +17,7 @@ int main(){
         }
         else if(n == 3){
             cout << "2 9 7" << endl;
+            cout << "4 6 3" << endl;
         }
     }
 
