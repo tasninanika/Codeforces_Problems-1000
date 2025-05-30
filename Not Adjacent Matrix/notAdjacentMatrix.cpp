@@ -24,7 +24,7 @@ int main(){
             int k = 1;
             int l;
             if(n % 2 != 0){
-
+                l = (n / 2 + 1) * n + 1;
             }
         }
     }
