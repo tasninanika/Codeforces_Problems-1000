@@ -34,6 +34,9 @@ int main(){
                     if(j % 2 == 0){
                         cout << k++ << " ";
                     }
+                    else{
+
+                    }
                 }
             }
         }
