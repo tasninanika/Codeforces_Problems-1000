@@ -35,8 +35,10 @@ int main(){
                         cout << k++ << " ";
                     }
                     else{
-                        cout << l++ << " ";                    }
+                        cout << l++ << " ";
+                    }
                 }
+                cout << endl;
             }
         }
     }
