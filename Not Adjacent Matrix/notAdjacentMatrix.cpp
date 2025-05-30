@@ -15,6 +15,9 @@ int main(){
         else if(n == 2){
             cout << "-1" << endl;
         }
+        else if(n == 3){
+
+        }
     }
 
     return 0;
