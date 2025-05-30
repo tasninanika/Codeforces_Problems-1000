@@ -20,6 +20,9 @@ int main(){
             cout << "4 6 3" << endl;
             cout << "1 8 5" << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
