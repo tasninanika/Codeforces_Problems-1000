@@ -16,7 +16,7 @@ int main(){
             cout << "-1" << endl;
         }
         else if(n == 3){
-
+            cout << "2 9 7" << endl;
         }
     }
 
