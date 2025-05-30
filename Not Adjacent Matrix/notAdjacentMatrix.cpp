@@ -8,6 +8,10 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        if(n == 1){
+
+        }
     }
 
     return 0;
