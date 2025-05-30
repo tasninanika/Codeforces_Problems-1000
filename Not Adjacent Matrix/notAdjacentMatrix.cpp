@@ -29,6 +29,9 @@ int main(){
             else{
                 l = (n * n) / 2 + 1;
             }
+            for(int i = 0; i < n; i++){
+
+            }
         }
     }
 
