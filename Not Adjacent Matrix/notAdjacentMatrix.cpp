@@ -23,6 +23,9 @@ int main(){
         else{
             int k = 1;
             int l;
+            if(n % 2 != 0){
+
+            }
         }
     }
 
