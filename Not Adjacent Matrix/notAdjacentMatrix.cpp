@@ -12,6 +12,9 @@ int main(){
         if(n == 1){
             cout << "-1" << endl;
         }
+        else if(n == 2){
+
+        }
     }
 
     return 0;
