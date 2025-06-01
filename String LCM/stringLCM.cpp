@@ -8,6 +8,5 @@ int main(){
     string a, b;
     cin >> a >> b;
 
-    int lengtha = a.length();
-    int lengthb = b.length();
+    int len = lcm(a.size(), b.size());
 }
