@@ -15,7 +15,7 @@ int main(){
         sa += a;
     }
     for (int i = 0; i < len / b.size(); i++){
-
+        sb += b;
     }
 
 }
