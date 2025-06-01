@@ -19,7 +19,7 @@ int main(){
     }
 
     if(sa == sb){
-
+        cout << sa << endl;
     }
 
 }
