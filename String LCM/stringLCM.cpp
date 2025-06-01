@@ -9,5 +9,5 @@ int main(){
     cin >> a >> b;
 
     int lengtha = a.length();
-
+    int lengthb = b.length();
 }
