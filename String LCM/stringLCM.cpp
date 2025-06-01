@@ -9,4 +9,6 @@ int main(){
     cin >> a >> b;
 
     int len = lcm(a.size(), b.size());
+
+    string sa, sb;
 }
