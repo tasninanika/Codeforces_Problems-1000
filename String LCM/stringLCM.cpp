@@ -12,6 +12,6 @@ int main(){
 
     string sa, sb;
     for(int i = 0; i < len / a.size(); i++){
-
+        sa += a;
     }
 }
