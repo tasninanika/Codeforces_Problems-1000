@@ -9,6 +9,7 @@ int main(){
     int lenb = b.size();
 
     int gcd = __gcd(lena, lenb);
+    int len = (lena * lenb) / gcd;
 
 
     string sa, sb;
