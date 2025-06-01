@@ -21,5 +21,8 @@ int main(){
     if(sa == sb){
         cout << sa << endl;
     }
+    else{
+        cout << sb << endl;
+    }
 
 }
