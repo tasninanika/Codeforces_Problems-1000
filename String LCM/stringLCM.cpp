@@ -12,7 +12,7 @@ int main(){
     int len = (lena * lenb) / gcd;
 
 
-    string sa, sb;
+    string sa = "", sb = "";
     for(int i = 0; i < len / lena; i++){
         sa += a;
     }
