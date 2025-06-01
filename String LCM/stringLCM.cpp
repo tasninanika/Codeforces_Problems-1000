@@ -16,7 +16,7 @@ int main(){
     for(int i = 0; i < len / lena; i++){
         sa += a;
     }
-    for (int i = 0; i < len / b.size(); i++){
+    for (int i = 0; i < len / lenb; i++){
         sb += b;
     }
 
