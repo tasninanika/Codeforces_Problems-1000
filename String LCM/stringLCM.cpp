@@ -8,6 +8,9 @@ int main(){
     int lena = a.size();
     int lenb = b.size();
 
+    int gcd = __gcd(lena, lenb);
+
+
     string sa, sb;
     for(int i = 0; i < len / a.size(); i++){
         sa += a;
