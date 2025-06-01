@@ -5,7 +5,8 @@ int main(){
     string a, b;
     cin >> a >> b;
 
-    int len = lcm(a.size(), b.size());
+    int lena = a.size();
+    int lenb = b.size();
 
     string sa, sb;
     for(int i = 0; i < len / a.size(); i++){
