@@ -14,4 +14,8 @@ int main(){
     for(int i = 0; i < len / a.size(); i++){
         sa += a;
     }
+    for (int i = 0; i < lcm_len / b.size(); i++){
+
+    }
+
 }
