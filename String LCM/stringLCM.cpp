@@ -11,4 +11,7 @@ int main(){
     int len = lcm(a.size(), b.size());
 
     string sa, sb;
+    for(int i = 0; i < len / a.size(); i++){
+
+    }
 }
