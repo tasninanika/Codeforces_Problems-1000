@@ -24,7 +24,7 @@ int main(){
         cout << sa << endl;
     }
     else{
-        cout << sb << endl;
+        cout << -1 << endl;
     }
 
 }
