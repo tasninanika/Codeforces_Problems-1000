@@ -18,4 +18,8 @@ int main(){
         sb += b;
     }
 
+    if(sa == sb){
+
+    }
+
 }
