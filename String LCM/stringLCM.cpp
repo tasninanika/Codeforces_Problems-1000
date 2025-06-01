@@ -7,4 +7,7 @@ int main(){
 
     string a, b;
     cin >> a >> b;
+
+    int lengtha = a.length();
+
 }
