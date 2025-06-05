@@ -15,7 +15,7 @@ int main(){
         bool f = 0, f1 = 1;
         for(int i = 0; i < s.size(); i++){
             if(s[i] == ch && !f){
-
+                x = i;
             }
         }
     }
