@@ -19,7 +19,7 @@ int main(){
                 f = 1;
             }
             if(f && s[i] == 'g'){
-
+                ans = max(ans, (i - x));
             }
         }
     }
