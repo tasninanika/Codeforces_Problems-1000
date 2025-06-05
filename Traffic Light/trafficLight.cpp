@@ -16,6 +16,7 @@ int main(){
         for(int i = 0; i < s.size(); i++){
             if(s[i] == ch && !f){
                 x = i;
+                f = 1;
             }
         }
     }
