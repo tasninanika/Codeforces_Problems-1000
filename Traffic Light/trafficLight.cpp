@@ -11,6 +11,8 @@ int main(){
         char ch;
         string s;
         cin >> n >> ch >> s;
+
+        bool f = 0, f1 = 1;
     }
 
 
