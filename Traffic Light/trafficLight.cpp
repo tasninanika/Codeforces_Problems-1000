@@ -20,6 +20,7 @@ int main(){
             }
             if(f && s[i] == 'g'){
                 ans = max(ans, (i - x));
+                f = 0;
             }
         }
     }
