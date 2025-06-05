@@ -6,13 +6,16 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n, x = 0, ans = -1, p = 0, i = 0, k = 0;
+        int n, x = 0, ans = -1, p = 0, k = 0;
 
         char ch;
         string s;
         cin >> n >> ch >> s;
 
         bool f = 0, f1 = 1;
+        for(int i = 0; i < s.size(); i++){
+
+        }
     }
 
 
