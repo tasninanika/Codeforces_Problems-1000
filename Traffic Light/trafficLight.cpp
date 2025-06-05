@@ -29,7 +29,7 @@ int main(){
         }
 
         if(f){
-
+            ans = max(ans, (n - x + k));
         }
     }
 
