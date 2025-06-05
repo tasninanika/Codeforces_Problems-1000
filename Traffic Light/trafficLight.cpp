@@ -22,6 +22,9 @@ int main(){
                 ans = max(ans, (i - x));
                 f = 0;
             }
+            if(f1 && s[i] == 'g'){
+
+            }
         }
     }
 
