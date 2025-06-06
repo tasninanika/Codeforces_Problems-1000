@@ -12,6 +12,10 @@ int main(){
         vector<int> mins;
         vector<int> seconds;
         long long sum = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
