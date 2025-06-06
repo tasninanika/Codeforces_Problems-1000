@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        vector<int> mins;
     }
 
     return 0;
