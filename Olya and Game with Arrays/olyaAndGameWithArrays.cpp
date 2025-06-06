@@ -18,7 +18,7 @@ int main(){
             cin >> m;
             vector<int> a(m);
             for(int j = 0; j < m; j++){
-
+                cin >> a[j];
             }
         }
     }
