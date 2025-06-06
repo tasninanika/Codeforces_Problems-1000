@@ -31,6 +31,8 @@ int main(){
         int minOfSeconds = *min_element(seconds.begin(), seconds.end());
 
         long long maxBeauty = sum - minOfSeconds + minOfMins;
+
+        cout << maxBeauty << endl;
     }
 
     return 0;
