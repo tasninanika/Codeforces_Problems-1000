@@ -11,6 +11,7 @@ int main(){
 
         vector<int> mins;
         vector<int> seconds;
+        long long sum = 0;
     }
 
     return 0;
