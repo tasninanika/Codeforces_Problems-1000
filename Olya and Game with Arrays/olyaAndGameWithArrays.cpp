@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         vector<int> mins;
+        vector<int> seconds;
     }
 
     return 0;
