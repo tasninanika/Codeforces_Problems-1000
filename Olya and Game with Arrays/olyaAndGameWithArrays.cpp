@@ -22,6 +22,7 @@ int main(){
             }
 
             sort(a.begin(), a.end());
+            mins.push_back(a[0]);
         }
     }
 
