@@ -26,6 +26,8 @@ int main(){
             seconds.push_back(a[1]);
             sum += a[1];
         }
+
+        int minOfMins = *min_element(mins.begin(), mins.end());
     }
 
     return 0;
