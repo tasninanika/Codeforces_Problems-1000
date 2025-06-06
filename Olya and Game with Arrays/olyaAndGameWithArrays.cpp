@@ -29,6 +29,8 @@ int main(){
 
         int minOfMins = *min_element(mins.begin(), mins.end());
         int minOfSeconds = *min_element(seconds.begin(), seconds.end());
+
+        long long maxBeauty = sum - minOfSeconds + minOfMins;
     }
 
     return 0;
