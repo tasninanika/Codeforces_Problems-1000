@@ -20,6 +20,8 @@ int main(){
             for(int j = 0; j < m; j++){
                 cin >> a[j];
             }
+
+            sort(a.begin(), a.end());
         }
     }
 
