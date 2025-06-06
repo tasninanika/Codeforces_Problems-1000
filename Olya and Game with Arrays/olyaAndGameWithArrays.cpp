@@ -23,6 +23,7 @@ int main(){
 
             sort(a.begin(), a.end());
             mins.push_back(a[0]);
+            seconds.push_back(a[1]);
         }
     }
 
