@@ -28,6 +28,7 @@ int main(){
         }
 
         int minOfMins = *min_element(mins.begin(), mins.end());
+        int minOfSeconds = *min_element(seconds.begin(), seconds.end());
     }
 
     return 0;
