@@ -24,6 +24,9 @@ int main(){
 
     for(long long i = a.back() + n; ; i++){
         int isPrime = 1;
+        for(long long j = 2; j * j <= i; j++){
+
+        }
     }
 
 
