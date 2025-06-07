@@ -8,6 +8,10 @@ int main(){
     vector<long long> a;
     for(long long i = n + 1; ; i++){
         int isPrime = 1;
+
+        for(long long j = 2; j * j <= i; j++){
+
+        }
     }
 
 
