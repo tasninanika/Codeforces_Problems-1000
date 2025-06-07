@@ -31,7 +31,7 @@ int main(){
             }
         }
         if(isPrime){
-
+            a.push_back(i);
         }
     }
 
