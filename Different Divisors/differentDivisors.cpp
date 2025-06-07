@@ -26,7 +26,7 @@ int main(){
         int isPrime = 1;
         for(long long j = 2; j * j <= i; j++){
             if(i % j == 0){
-
+                isPrime = 0;
             }
         }
     }
