@@ -22,6 +22,10 @@ int main(){
         }
     }
 
+    for(long long i = a.back() + n; ; i++){
+
+    }
+
 
     return 0;
 }
