@@ -30,6 +30,9 @@ int main(){
                 break;
             }
         }
+        if(isPrime){
+
+        }
     }
 
 
