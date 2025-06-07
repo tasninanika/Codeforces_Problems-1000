@@ -23,7 +23,7 @@ int main(){
     }
 
     for(long long i = a.back() + n; ; i++){
-
+        int isPrime = 1;
     }
 
 
