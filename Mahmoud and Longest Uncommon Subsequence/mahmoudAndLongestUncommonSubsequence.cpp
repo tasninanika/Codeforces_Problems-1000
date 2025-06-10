@@ -12,7 +12,7 @@ int main(){
         cout << -1 << endl;
     }
     else{
-
+        cout << s1.size() << endl;
     }
 
 
