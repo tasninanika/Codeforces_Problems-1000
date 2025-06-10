@@ -8,6 +8,9 @@ int main(){
     if(s1.size() != s2.size()){
         cout << max(s1.size(), s2.size()) << endl;
     }
+    else if(s1 == s2){
+
+    }
 
 
     return 0;
