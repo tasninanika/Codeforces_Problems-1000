@@ -6,7 +6,7 @@ int main(){
     cin >> s1 >> s2;
 
     if(s1.size() != s2.size()){
-
+        cout << max(s1.size(), s2.size()) << endl;
     }
 
 
