@@ -14,6 +14,8 @@ int main(){
             cin >> a[i];
         }
 
+        int i;
+
     }
 
     return 0;
