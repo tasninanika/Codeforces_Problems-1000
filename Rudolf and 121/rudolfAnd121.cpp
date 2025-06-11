@@ -22,6 +22,7 @@ int main(){
 
             long long x = a[i];
             a[i] -= x;
+            a[i + 1] -= 2 * x;
         }
 
     }
