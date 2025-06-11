@@ -27,7 +27,7 @@ int main(){
         }
 
         if(i + 2 < n){
-
+            cout << "NO" << endl;
         }
 
     }
