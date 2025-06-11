@@ -26,6 +26,10 @@ int main(){
             a[i + 2] -= x;
         }
 
+        if(i + 2 < n){
+
+        }
+
     }
 
     return 0;
