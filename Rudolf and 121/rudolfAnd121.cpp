@@ -5,8 +5,9 @@ int main(){
     int t;
     cin >> t;
 
-    vector<long long> a(n);
+    while(t--){
 
+    }
 
     return 0;
 }
