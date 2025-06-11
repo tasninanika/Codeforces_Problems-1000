@@ -19,6 +19,8 @@ int main(){
             if(a[i] < 0){
                 break;
             }
+
+            long long x = a[i];
         }
 
     }
