@@ -32,6 +32,9 @@ int main(){
         else if(a[n - 2] == 0 && a[n - 1] == 0){
             cout << "YES" << endl;
         }
+        else{
+
+        }
 
     }
 
