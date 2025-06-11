@@ -17,7 +17,7 @@ int main(){
         int i;
         for(i = 0; i + 2 < n; i++){
             if(a[i] < 0){
-
+                break;
             }
         }
 
