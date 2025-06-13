@@ -24,6 +24,10 @@ int main(){
         }
 
         sort(h.begin(), h.end());
+
+        for(int i = 0; i < res.size(); i++){
+
+        }
     }
 
 
