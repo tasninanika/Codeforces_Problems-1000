@@ -20,6 +20,7 @@ int main(){
             if(res == 0){
                 res += k;
             }
+            h.push_back({-res, i});
         }
     }
 
