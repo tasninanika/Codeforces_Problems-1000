@@ -17,6 +17,9 @@ int main(){
         vector<pair<long long, long long>> h;
         for(int i = 0; i < n; i++){
             long long res = arr[i] % k;
+            if(res == 0){
+
+            }
         }
     }
 
