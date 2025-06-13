@@ -13,6 +13,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> arr[i];
         }
+
+        vector<pair<long long, long long>> h;
     }
 
 
