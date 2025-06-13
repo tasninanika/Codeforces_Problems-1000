@@ -18,7 +18,7 @@ int main(){
         for(int i = 0; i < n; i++){
             long long res = arr[i] % k;
             if(res == 0){
-
+                res += k;
             }
         }
     }
