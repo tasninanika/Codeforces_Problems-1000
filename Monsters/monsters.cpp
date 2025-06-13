@@ -22,6 +22,8 @@ int main(){
             }
             h.push_back({-res, i});
         }
+
+        sort(h.begin(), h.end());
     }
 
 
