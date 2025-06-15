@@ -14,6 +14,9 @@ int main(){
         for(int j = 0; j < top; j++){
             cout << j << " ";
         }
+        for(int j = top; j > 0; j--){
+
+        }
     }
 
     return 0;
