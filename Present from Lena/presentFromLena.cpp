@@ -12,7 +12,7 @@ int main(){
             cout << " ";
         }
         for(int j = 0; j < top; j++){
-
+            cout << j << " ";
         }
     }
 
