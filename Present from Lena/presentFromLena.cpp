@@ -15,7 +15,7 @@ int main(){
             cout << j << " ";
         }
         for(int j = top; j > 0; j--){
-
+            cout << j << " ";
         }
     }
 
