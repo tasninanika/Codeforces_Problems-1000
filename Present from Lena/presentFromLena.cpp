@@ -9,8 +9,9 @@ int main(){
         int top = n - abs(i);
 
         for(int j = 0; j < abs(i); j++){
-            cout << " ";
+            cout << "  ";
         }
+
         for(int j = 0; j < top; j++){
             cout << j << " ";
         }
