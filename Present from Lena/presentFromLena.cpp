@@ -11,6 +11,9 @@ int main(){
         for(int j = 0; j < abs(row); j++){
             cout << " ";
         }
+        for(int j = 0; j < top; j++){
+
+        }
     }
 
     return 0;
