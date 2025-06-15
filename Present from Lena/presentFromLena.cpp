@@ -17,6 +17,7 @@ int main(){
         for(int j = top; j > 0; j--){
             cout << j << " ";
         }
+        cout << 0 << endl;
     }
 
     return 0;
