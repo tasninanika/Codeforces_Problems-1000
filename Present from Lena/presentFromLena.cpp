@@ -9,7 +9,7 @@ int main(){
         int top = n - abs(i);
 
         for(int j = 0; j < abs(row); j++){
-
+            cout << " ";
         }
     }
 
