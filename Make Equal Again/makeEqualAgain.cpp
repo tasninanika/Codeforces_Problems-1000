@@ -1,39 +1,46 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main(){
-    long long t;
+int main() {
+    int t;
     cin >> t;
 
-    while (t--){
-        long long n;
+    while (t--) {
+        int n;
         cin >> n;
 
-        long long arr[n];
-        long long sum = 0;
-
-        for(int i = 0; i < n; i++) {
+        int arr[200000];
+        for (int i = 0; i < n; i++) {
             cin >> arr[i];
-            sum += arr[i];
         }
 
-        long long avg = sum / n;
-
-        int i;
-        for(i = 0; i < n - 1; i++) {
-            if (arr[i] < avg) {
-                break;
-            }
-            arr[i + 1] += arr[i] - avg;
-            arr[i] = avg;
+        if (n == 1) {
+            cout << 0 << endl;
+            continue;
         }
 
-        if(i == n - 1){
-            cout << "YES" << endl;
+        int left = 0;
+        int right = n - 1;
+        int start = arr[left];
+        int e = arr[right];
+
+        while (left < n - 1 && arr[left] == start) {
+            left++;
         }
-        else{
-            cout << "NO" << endl;
+
+        while (right > 0 && arr[right] == e) {
+            right--;
+        }
+
+        if (start == e) {
+            int len = right - left + 1;
+            if (len < 0) len = 0;
+            cout << len << endl;
+        } else {
+            int r = max(left, n - right - 1);
+            cout << n - r << "\n";
         }
     }
+
     return 0;
 }
