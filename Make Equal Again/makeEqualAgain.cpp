@@ -8,6 +8,7 @@ int main(){
     while (t--){
         long long n;
         cin >> n;
+
         long long arr[n];
         long long sum = 0;
 
