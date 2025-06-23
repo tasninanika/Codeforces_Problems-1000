@@ -12,6 +12,8 @@ int main(){
         int cards = n / k;
 
         int joker = min(m, cards);
+
+        int re_joker = m - joker;
     }
 
 
