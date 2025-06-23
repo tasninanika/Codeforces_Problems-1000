@@ -16,6 +16,8 @@ int main(){
         int remainingJoker = m - joker;
 
         int maxJoker = (remainingJoker + (k - 2)) / (k - 1);
+
+        int result = joker - maxJoker;
     }
 
 
