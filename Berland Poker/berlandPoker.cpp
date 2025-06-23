@@ -10,6 +10,8 @@ int main(){
         cin >> n >> m >> k;
 
         int cards = n / k;
+
+        int joker = min(m, cards);
     }
 
 
