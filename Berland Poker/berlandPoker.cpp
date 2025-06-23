@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, m, k;
         cin >> n >> m >> k;
+
+        int cards = n / k;
     }
 
 
