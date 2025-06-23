@@ -13,7 +13,9 @@ int main(){
 
         int joker = min(m, cards);
 
-        int re_joker = m - joker;
+        int remainingJoker = m - joker;
+
+        int maxJoker = (remainingJoker + (k - 2)) / (k - 1);
     }
 
 
