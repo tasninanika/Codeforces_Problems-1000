@@ -18,6 +18,8 @@ int main(){
         int maxJoker = (remainingJoker + (k - 2)) / (k - 1);
 
         int result = joker - maxJoker;
+
+        cout << result << endl;
     }
 
 
