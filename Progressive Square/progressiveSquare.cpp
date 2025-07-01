@@ -31,8 +31,9 @@ int main(){
             for(int j = 0; j < n; j++){
                 v.push_back(value + j * d);
             }
-
         }
+
+        sort(v.begin(), v.end());
     }
 
 
