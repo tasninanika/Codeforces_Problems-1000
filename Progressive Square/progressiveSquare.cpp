@@ -14,6 +14,8 @@ int main(){
         for(int i = 0; i < n * n; i++){
             cin >> v[i];
         }
+
+        sort(v.begin(), v.end());
     }
 
 
