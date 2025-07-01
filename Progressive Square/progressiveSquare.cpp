@@ -19,6 +19,8 @@ int main(){
 
         vector<int> temp;
         int start = v[0];
+
+        vector<int> firstRow;
     }
 
 
