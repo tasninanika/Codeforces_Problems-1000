@@ -18,6 +18,7 @@ int main(){
         sort(v.begin(), v.end());
 
         vector<int> temp;
+        int start = v[0];
     }
 
 
