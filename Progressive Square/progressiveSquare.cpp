@@ -36,7 +36,7 @@ int main(){
         sort(firstRow.begin(), firstRow.end());
 
         if(v == firstRow){
-
+            cout << "YES" << endl;
         }
     }
 
