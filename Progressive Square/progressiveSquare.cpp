@@ -29,7 +29,7 @@ int main(){
             int value = firstRow[i];
 
             for(int j = 0; j < n; j++){
-
+                v.push_back(value + j * d);
             }
 
         }
