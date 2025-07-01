@@ -33,7 +33,11 @@ int main(){
             }
         }
 
-        sort(v.begin(), v.end());
+        sort(firstRow.begin(), firstRow.end());
+
+        if(v == firstRow){
+
+        }
     }
 
 
