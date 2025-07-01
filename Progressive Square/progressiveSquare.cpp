@@ -21,6 +21,9 @@ int main(){
         int start = v[0];
 
         vector<int> firstRow;
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
