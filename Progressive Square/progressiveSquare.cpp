@@ -38,6 +38,9 @@ int main(){
         if(v == firstRow){
             cout << "YES" << endl;
         }
+        else{
+
+        }
     }
 
 
