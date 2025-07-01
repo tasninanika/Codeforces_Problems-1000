@@ -6,13 +6,13 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n;
-        cin >> n;
+        int n, c, d;
+        cin >> n >> c >> d;
 
         vector<int> v(n * n);
 
         for(int i = 0; i < n * n; i++){
-
+            cin >>
         }
     }
 
