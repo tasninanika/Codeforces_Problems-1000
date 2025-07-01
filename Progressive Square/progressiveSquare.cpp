@@ -24,6 +24,10 @@ int main(){
         for(int i = 0; i < n; i++){
             firstRow.push_back(start + i * c);
         }
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
