@@ -12,7 +12,7 @@ int main(){
         vector<int> v(n * n);
 
         for(int i = 0; i < n * n; i++){
-            cin >>
+            cin >> v[i];
         }
     }
 
