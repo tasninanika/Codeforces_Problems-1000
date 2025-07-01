@@ -5,20 +5,19 @@ int main(){
     int t;
     cin >> t;
 
-    while(t--){
+    while (t--){
         int n, c, d;
         cin >> n >> c >> d;
 
-        vector<int> v(n * n);
-
+        vector<int> input(n * n);
         for(int i = 0; i < n * n; i++){
-            cin >> v[i];
+            cin >> input[i];
         }
 
-        sort(v.begin(), v.end());
+        sort(input.begin(), input.end());
 
-        vector<int> temp;
-        int start = v[0];
+        vector<int> expected;
+        int start = input[0];
 
         vector<int> firstRow;
         for(int i = 0; i < n; i++){
@@ -27,22 +26,20 @@ int main(){
 
         for(int i = 0; i < n; i++){
             int value = firstRow[i];
-
             for(int j = 0; j < n; j++){
-                v.push_back(value + j * d);
+                expected.push_back(value + j * d);
             }
         }
 
-        sort(firstRow.begin(), firstRow.end());
+        sort(expected.begin(), expected.end());
 
-        if(v == firstRow){
+        if(input == expected){
             cout << "YES" << endl;
         }
         else{
             cout << "NO" << endl;
         }
     }
-
 
     return 0;
 }
