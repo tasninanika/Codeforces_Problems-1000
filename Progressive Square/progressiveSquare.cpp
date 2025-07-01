@@ -22,7 +22,7 @@ int main(){
 
         vector<int> firstRow;
         for(int i = 0; i < n; i++){
-
+            firstRow.push_back(start + i * c);
         }
     }
 
