@@ -6,25 +6,36 @@ int main(){
     cin >> t;
 
     while(t--){
-        int r, b, d;
-        cin >> r >> b >> d;
+        int n;
+        cin >> n;
 
-        if(r < b){
-            int temp = r;
-            r = b;
-            b = temp;
+        long long sumA = 0, maxA = 0;
+        for(int i = 0; i < n; i++){
+            long long x;
+            cin >> x;
+
+            sumA += x;
+            if(sumA > maxA){
+                maxA = sumA;
+            }
         }
 
-        int max_needed = (r + b - 1) / b - 1;
+        int m;
+        cin >> m;
 
-        if(max_needed <= d){
-            cout << "YES" << endl;
+        long long sumB = 0, maxB = 0;
+        for(int i = 0; i < m; i++){
+            long long x;
+            cin >> x;
+
+            sumB += x;
+            if(sumB > maxB){
+                maxB = sumB;
+            }
         }
-        else{
-            cout << "NO" << endl;
-        }
+
+        cout << maxA + maxB << endl;
     }
 
     return 0;
 }
-
