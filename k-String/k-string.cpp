@@ -15,7 +15,9 @@ int main(){
 
     string part = "";
     for(int i = 0; i < 26; i++){
+        if(c[i] % k != 0){
 
+        }
     }
 
     return 0;
