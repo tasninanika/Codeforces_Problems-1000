@@ -6,5 +6,7 @@ int main(){
     string s;
     cin >> k >> s;
 
+    int c[26] = {0};
+
     return 0;
 }
