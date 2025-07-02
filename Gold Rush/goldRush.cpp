@@ -25,7 +25,7 @@ int main(){
         m /= g;
 
         int count3 = 0;
-        while (n % 3 == 0) {
+        while(n % 3 == 0){
             count3++;
             n /= 3;
         }
