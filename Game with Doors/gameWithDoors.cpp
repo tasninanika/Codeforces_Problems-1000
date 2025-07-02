@@ -1,24 +1,53 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
-    int t;
-    cin >> t;
+    long long t;
+    cin>>t;
 
-    while(t--){
-        int l, r, L, R;
-        cin >> l >> r >> L >> R;
+    while(t--)
+    {
+       vector<pair<long long,long long>>v;
+       long long u,vv,x,y;
+       cin >> u >> vv;
+       cin >> x >> y;
 
-        int overlap_left = max(l, L);
-        int overlap_right = min(r, R);
+       v.push_back({u,vv});
+       v.push_back({x,y});
 
-        if(overlap_left <= overlap_right){
-            cout << (overlap_right - overlap_left + 1) << endl;
-        }
-        else{
-            cout << min(abs(L - r), abs(l - R)) << endl;
-        }
+       sort(v.begin(),v.end());
+
+       int l = v[0].first;
+       int r = v[0].second;
+       int L = v[1].first;
+       int R = v[1].second;
+
+       if(r < L){
+           cout << 1 << endl;
+       }
+       else if(r >= R){
+           long long ok = abs(L - R) + 2;
+
+           if(l == L){
+               ok--;
+           }
+           if(R == r){
+             ok--;
+           }
+           cout << ok << endl;
+       }
+       else{
+           long long ok =abs(r - L) + 2;
+
+           if(l == L){
+               ok--;
+           }
+           if(r == R){
+               ok--;
+           }
+           cout << ok << endl;
+       }
+
     }
-
     return 0;
 }
