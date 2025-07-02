@@ -6,20 +6,21 @@ int main(){
     cin >> t;
 
     while(t--){
-        int l, r;
-        cin >> l >> r;
+        int l, r, L, R;
+        cin >> l >> r >> L >> R;
 
-        int L, R;
-        cin >> L >> R;
-
-        if(r < L || R < l){
-            cout << 0 << endl;
+        int ans = 0;
+        if(r < L){
+            ans = L - r;
+        }
+        else if(R < l){
+            ans = l - R;
         }
         else{
-            cout << 1 << endl;
+            ans = 0;
         }
-    }
 
+        cout << ans << endl;
+    }
     return 0;
 }
-
