@@ -10,6 +10,7 @@ int main(){
 
     for(int i = 0; i < s.size(); i++){
         char ch = s[i];
+        c[ch - 'a'] += 1;
     }
 
     return 0;
