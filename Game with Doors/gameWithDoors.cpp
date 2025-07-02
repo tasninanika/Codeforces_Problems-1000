@@ -9,18 +9,16 @@ int main(){
         int l, r, L, R;
         cin >> l >> r >> L >> R;
 
-        int ans = 0;
-        if(r < L){
-            ans = L - r;
-        }
-        else if(R < l){
-            ans = l - R;
+        int overlap_left = max(l, L);
+        int overlap_right = min(r, R);
+
+        if(overlap_left <= overlap_right){
+            cout << (overlap_right - overlap_left + 1) << endl;
         }
         else{
-            ans = 0;
+            cout << min(abs(L - r), abs(l - R)) << endl;
         }
-
-        cout << ans << endl;
     }
+
     return 0;
 }
