@@ -4,10 +4,12 @@ using namespace std;
 typedef long long ll;
 
 ll gcd(ll a, ll b){
-    if(b == 0)
+    if(b == 0){
         return a;
-    else
+    }
+    else{
         return gcd(b, a % b);
+    }
 }
 
 int main(){
