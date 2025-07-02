@@ -13,5 +13,7 @@ int main(){
         c[ch - 'a'] += 1;
     }
 
+    string part = "";
+
     return 0;
 }
