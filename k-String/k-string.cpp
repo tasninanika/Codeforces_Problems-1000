@@ -29,5 +29,7 @@ int main(){
         cout << part;
     }
 
+    cout << endl;
+
     return 0;
 }
