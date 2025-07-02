@@ -19,6 +19,10 @@ int main(){
             cout << -1 << endl;
             return 0;
         }
+
+        for(int j = 0; j < c[i] / k; j++){
+
+        }
     }
 
     return 0;
