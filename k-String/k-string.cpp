@@ -21,7 +21,7 @@ int main(){
         }
 
         for(int j = 0; j < c[i] / k; j++){
-
+            part += ('a' + i);
         }
     }
 
