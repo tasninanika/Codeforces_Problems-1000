@@ -24,19 +24,19 @@ int main(){
         n /= g;
         m /= g;
 
-        int count3 = 0;
+        int c3 = 0;
         while(n % 3 == 0){
-            count3++;
+            c3++;
             n /= 3;
         }
 
-        int count2 = 0;
+        int c2 = 0;
         while(m % 2 == 0){
-            count2++;
+            c2++;
             m /= 2;
         }
 
-        if(n == 1 && m == 1 && count2 <= count3){
+        if(n == 1 && m == 1 && c2 <= c3){
             cout << "YES" << endl;
         }
         else{
