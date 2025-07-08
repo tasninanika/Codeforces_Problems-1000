@@ -1,56 +1,30 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <vector>
+#include <map>
 
-int main() {
-    int t;
-    cin >> t;
+int main(){
 
-    while (t--) {
-        int n;
-        cin >> n;
-
-        int a[100];
-        for (int i = 0; i < n; i++) {
-            cin >> a[i];
+    std::ios_base::sync_with_stdio(false);
+    long t; std::cin >> t;
+    while(t--){
+        long n; std::cin >> n;
+        std::vector<long> a(n); for(long p = 0; p < n; p++){std::cin >> a[p];}
+        long m; std::cin >> m;
+        while(m--){
+            std::map<long, char> numtochar;
+            std::map<char, long> chartonum;
+            std::string s; std::cin >> s;
+            if(s.size() != n){std::cout << "NO" << std::endl; continue;}
+            bool res(true);
+            for(long p = 0; res && p < s.size(); p++){
+                long f(a[p]); char g(s[p]);
+                if(numtochar.count(f) ^ chartonum.count(g)){res = false;}
+                if(!numtochar.count(f)){numtochar[f] = g; chartonum[g] = f;}
+                else if(numtochar[f] != g || chartonum[g] != f){res = false;}
+            }
+            std::cout << (res ? "YES" : "NO") << std::endl;
         }
 
-        int m;
-        cin >> m;
-
-        while (m--) {
-            string s;
-            cin >> s;
-
-            if (s.length() != n) {
-                cout << "NO" << endl;
-                continue;
-            }
-
-            map<int, char> num_to_char;
-            map<char, int> char_to_num;
-            bool isValid = true;
-
-            for (int i = 0; i < n; i++) {
-                int number = a[i];
-                char letter = s[i];
-
-                if ((num_to_char.count(number) && num_to_char[number] != letter) ||
-                    (char_to_num.count(letter) && char_to_num[letter] != number)) {
-                    isValid = false;
-                    break;
-                }
-
-                num_to_char[number] = letter;
-                char_to_num[letter] = number;
-            }
-
-            if (isValid) {
-                cout << "YES" << endl;
-            } else {
-                cout << "NO" << endl;
-            }
-        }
     }
 
-    return 0;
 }
