@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -9,23 +9,16 @@ int main(){
         int n, m;
         cin >> n >> m;
 
-        int a[102][102];
+        vector<vector<int>> a(n + 2, vector<int>(m + 2, 0));
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
+        for (int i = 1; i <= n; ++i)
+            for (int j = 1; j <= m; ++j)
                 cin >> a[i][j];
-            }
-        }
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
-                int up = a[i - 1][j];
-                int down = a[i + 1][j];
-                int left = a[i][j - 1];
-                int right = a[i][j + 1];
-                int maxNeighbour = max(max(up, down), max(left, right));
-                int result = min(a[i][j], maxNeighbour);
-                cout << result << " ";
+        for (int i = 1; i <= n; ++i) {
+            for (int j = 1; j <= m; ++j) {
+                int maxAround = max({a[i - 1][j], a[i + 1][j], a[i][j - 1], a[i][j + 1]});
+                cout << min(a[i][j], maxAround) << " ";
             }
             cout << endl;
         }
