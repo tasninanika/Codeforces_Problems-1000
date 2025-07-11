@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, m, x, y;
         cin >> n >> m >> x >> y;
+
+        string grid[101];
     }
 
     return 0;
