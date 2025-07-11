@@ -13,6 +13,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> grid[i];
         }
+
+        int total_cost = 0;
     }
 
     return 0;
