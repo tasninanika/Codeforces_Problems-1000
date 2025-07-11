@@ -10,6 +10,9 @@ int main(){
         cin >> n >> m >> x >> y;
 
         string grid[101];
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
