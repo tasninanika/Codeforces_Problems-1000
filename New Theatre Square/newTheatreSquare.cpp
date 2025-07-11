@@ -25,6 +25,9 @@ int main(){
                         total_cost += y;
                         j += 2;
                     }
+                    else{
+
+                    }
                 }
             }
         }
