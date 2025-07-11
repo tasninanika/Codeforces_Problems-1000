@@ -15,6 +15,10 @@ int main(){
         }
 
         int total_cost = 0;
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
