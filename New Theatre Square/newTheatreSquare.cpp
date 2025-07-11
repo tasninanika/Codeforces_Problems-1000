@@ -20,7 +20,9 @@ int main(){
             int j = 0;
 
             while(j < m){
+                if(grid[i][j] == '.'){
 
+                }
             }
         }
     }
