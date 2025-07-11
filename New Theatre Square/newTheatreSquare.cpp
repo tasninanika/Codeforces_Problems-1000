@@ -22,7 +22,7 @@ int main(){
             while(j < m){
                 if(grid[i][j] == '.'){
                     if(j + 1 < m && grid[i][j + 1] == '.' && y < 2 * x){
-
+                        total_cost += y;
                     }
                 }
             }
