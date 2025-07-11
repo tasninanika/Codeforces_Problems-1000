@@ -27,6 +27,7 @@ int main(){
                     }
                     else{
                         total_cost += x;
+                        j++;
                     }
                 }
             }
