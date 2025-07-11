@@ -11,7 +11,7 @@ int main(){
 
         string grid[101];
         for(int i = 0; i < n; i++){
-
+            cin >> grid[i];
         }
     }
 
