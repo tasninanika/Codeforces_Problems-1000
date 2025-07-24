@@ -16,7 +16,7 @@ int main(){
         }
 
         if(a * b > c){
-
+            s = b;
         }
     }
 
