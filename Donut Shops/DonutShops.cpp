@@ -10,6 +10,10 @@ int main(){
         cin >> a >> b >> c;
 
         long long f = -1, s = -1;
+
+        if(a < c){
+
+        }
     }
 
 
