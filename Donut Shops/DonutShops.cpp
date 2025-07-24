@@ -8,6 +8,8 @@ int main(){
     while(t--){
         long long a, b, c;
         cin >> a >> b >> c;
+
+        long long f = -1, s = -1;
     }
 
 
