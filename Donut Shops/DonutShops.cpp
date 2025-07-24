@@ -14,6 +14,10 @@ int main(){
         if(a < c){
             f = 1;
         }
+
+        if(a * b > c){
+
+        }
     }
 
 
