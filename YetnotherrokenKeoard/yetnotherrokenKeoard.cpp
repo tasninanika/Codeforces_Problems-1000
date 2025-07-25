@@ -44,6 +44,7 @@ int main(){
                 j++;
             }
         }
+        cout << ans << endl;
     }
 
 
