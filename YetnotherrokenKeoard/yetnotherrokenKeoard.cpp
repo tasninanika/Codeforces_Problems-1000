@@ -10,6 +10,10 @@ int main(){
         cin >> str;
 
         string lower = " ", upper = " ";
+
+        for(int i = 0; i < (int)str.size; i++){
+
+        }
     }
 
 
