@@ -19,7 +19,7 @@ int main(){
                     lower.pop_back();
                 }
                 else if(c != 'b'){
-
+                    lower.push_back(c);
                 }
             }
         }
