@@ -18,6 +18,9 @@ int main(){
                 if(c == 'b' && !lower.empty()){
                     lower.pop_back();
                 }
+                else if(c != 'b'){
+
+                }
             }
         }
     }
