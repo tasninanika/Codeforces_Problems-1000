@@ -26,6 +26,9 @@ int main(){
                 if(c == 'B' && !upper.empty()){
                     upper.pop_back();
                 }
+                else if(c != 'B'){
+
+                }
             }
         }
     }
