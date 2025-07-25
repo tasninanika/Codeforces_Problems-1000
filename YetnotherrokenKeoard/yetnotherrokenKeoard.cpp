@@ -23,7 +23,9 @@ int main(){
                 }
             }
             else{
+                if(c == 'B' && !upper.empty()){
 
+                }
             }
         }
     }
