@@ -33,6 +33,7 @@ int main(){
         }
 
         string ans = "";
+        int i = 0, j = 0;
     }
 
 
