@@ -11,7 +11,7 @@ int main(){
 
         string lower = " ", upper = " ";
 
-        for(int i = 0; i < (int)str.size; i++){
+        for(int i = 0; i < str.size; i++){
             char c = str[i];
 
             if(islower(c)){
