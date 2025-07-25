@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -13,18 +13,23 @@ int main(){
         cin >> str;
 
         int segment = 1;
-        for(int i = 1; i < n; i++){
-            if (str[i] != str[i - 1]) {
-                segment++;
+
+        char cur = str.front();
+
+        for (int i = 0; i < n; i++){
+            if (str[i] != str.front()){
+                if(cur == str.front())
+                    segment++, cur = str[i];
             }
+            else
+                cur = str.front();
         }
 
-        int ans;
-        if (b >= 0)
+        int ans = 0;
+        if(b >= 0)
             ans = n * (a + b);
         else
-            ans = n * a + b * ((segment + 1) / 2);
-
+            ans = n * a + b * segment;
         cout << ans << endl;
     }
     return 0;
