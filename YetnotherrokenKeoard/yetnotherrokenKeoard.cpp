@@ -22,6 +22,9 @@ int main(){
                     lower.push_back(c);
                 }
             }
+            else{
+
+            }
         }
     }
 
