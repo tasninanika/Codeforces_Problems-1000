@@ -8,6 +8,8 @@ int main(){
     while(t--){
         string str;
         cin >> str;
+
+        string lower = " ", upper = " ";
     }
 
 
