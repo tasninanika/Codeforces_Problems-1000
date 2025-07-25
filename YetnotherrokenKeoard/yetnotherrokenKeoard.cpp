@@ -37,6 +37,7 @@ int main(){
         for(int k = 0; k < (int)str.size(); k++){
             if(i < (int)lower.size() && str[k] == lower[i]){
                 ans.push_back(lower[i]);
+                i++;
             }
         }
     }
