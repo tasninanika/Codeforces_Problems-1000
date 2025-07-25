@@ -16,7 +16,7 @@ int main(){
 
             if(islower(c)){
                 if(c == 'b' && !lower.empty()){
-
+                    lower.pop_back();
                 }
             }
         }
