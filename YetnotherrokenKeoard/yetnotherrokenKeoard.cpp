@@ -39,6 +39,9 @@ int main(){
                 ans.push_back(lower[i]);
                 i++;
             }
+            else if(j < (int)upper.size() && str[k] == upper[j]){
+
+            }
         }
     }
 
