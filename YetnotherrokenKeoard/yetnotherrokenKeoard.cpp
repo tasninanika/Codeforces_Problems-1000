@@ -27,7 +27,7 @@ int main(){
                     upper.pop_back();
                 }
                 else if(c != 'B'){
-
+                    upper.push_back(c);
                 }
             }
         }
