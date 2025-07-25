@@ -15,7 +15,9 @@ int main(){
             char c = str[i];
 
             if(islower(c)){
+                if(c == 'b' && !lower.empty()){
 
+                }
             }
         }
     }
