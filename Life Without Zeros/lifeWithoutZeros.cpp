@@ -1,7 +1,7 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main() {
+int main(){
     int a, b;
     cin >> a >> b;
 
@@ -10,7 +10,7 @@ int main() {
     int powA = 1, powB = 1, powC = 1;
     int temp = a;
 
-    while (temp > 0) {
+    while(temp > 0){
         int d = temp % 10;
         temp /= 10;
         if (d != 0) {
@@ -19,7 +19,7 @@ int main() {
         }
     }
     temp = b;
-    while (temp > 0) {
+    while(temp > 0){
         int d = temp % 10;
         temp /= 10;
 
@@ -28,20 +28,24 @@ int main() {
             powB *= 10;
         }
     }
+
     temp = c;
-    while (temp > 0) {
+    while(temp > 0){
         int d = temp % 10;
         temp /= 10;
 
-        if (d != 0) {
+        if(d != 0){
             C += d * powC;
             powC *= 10;
         }
     }
-    if (A + B == C)
+
+    if(A + B == C){
         cout << "YES" << endl;
-    else
+    }
+    else{
         cout << "NO" << endl;
+    }
 
 
     return 0;
