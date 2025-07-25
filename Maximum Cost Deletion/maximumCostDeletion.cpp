@@ -1,27 +1,31 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
-int main() {
+int main(){
     int t;
     cin >> t;
 
-    while (t--) {
+    while(t--){
         int n, a, b;
         cin >> n >> a >> b;
 
         string str;
         cin >> str;
 
-        int c = 0;
-        for (int i = 0; i < n - 1; i++) {
-            if (str[i] != str[i + 1]) {
-                c++;
+        int segment = 1;
+        for(int i = 1; i < n; i++){
+            if (str[i] != str[i - 1]) {
+                segment++;
             }
         }
 
-        int maxi = a * n + ((b >= 0) ? (b * n) : (b * (c / 2 + 1)));
+        int ans;
+        if (b >= 0)
+            ans = n * (a + b);
+        else
+            ans = n * a + b * ((segment + 1) / 2);
 
-        cout << maxi << endl;
+        cout << ans << endl;
     }
     return 0;
 }
