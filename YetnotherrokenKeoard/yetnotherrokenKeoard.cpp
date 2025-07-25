@@ -13,6 +13,10 @@ int main(){
 
         for(int i = 0; i < (int)str.size; i++){
             char c = str[i];
+
+            if(islower(c)){
+
+            }
         }
     }
 
