@@ -24,7 +24,7 @@ int main(){
             }
             else{
                 if(c == 'B' && !upper.empty()){
-
+                    upper.pop_back();
                 }
             }
         }
