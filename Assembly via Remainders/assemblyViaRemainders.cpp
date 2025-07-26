@@ -15,6 +15,7 @@ int main(){
         }
 
         int ans[1000];
+        ans[0] = 1000;
     }
 
     return 0;
