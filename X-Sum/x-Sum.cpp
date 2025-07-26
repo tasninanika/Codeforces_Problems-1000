@@ -34,6 +34,8 @@ int main(){
                 for(int x = i, y = j; x >= 0 && y >= 0; x--, y--){
                     sum += a[x][y];
                 }
+
+                sum -= 3 * a[i][j];
             }
         }
 
