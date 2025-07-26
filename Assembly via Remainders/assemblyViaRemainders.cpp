@@ -10,6 +10,9 @@ int main(){
         cin >> n;
 
         int rem[1000];
+        for(int i = 0; i < n - 1; i++){
+
+        }
     }
 
     return 0;
