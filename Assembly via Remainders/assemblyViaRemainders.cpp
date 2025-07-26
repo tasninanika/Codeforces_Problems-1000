@@ -18,7 +18,7 @@ int main(){
         ans[0] = 1000;
 
         for(int i = 0; i < n - 1; i++){
-
+            ans[i + 1] = ans[i];
         }
     }
 
