@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -9,23 +9,22 @@ int main(){
         int n;
         cin >> n;
 
-        int rem[1000];
-        for(int i = 0; i < n - 1; i++){
-            cin >> rem[i];
+        vector<long long> x(n - 1);
+        for (int i = 0; i < n - 1; i++) {
+            cin >> x[i];
         }
 
-        int ans[1000];
-        ans[0] = 1000;
+        vector<long long> ans(n);
+        ans[0] = 501;
 
-        for(int i = 0; i < n - 1; i++){
-            ans[i + 1] = ans[i];
+        for (int i = 1; i < n; i++) {
+            ans[i] = ans[i - 1] + x[i - 1];
         }
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             cout << ans[i] << " ";
         }
         cout << endl;
     }
-
     return 0;
 }
