@@ -36,6 +36,7 @@ int main(){
                 }
 
                 sum -= 3 * a[i][j];
+                ans = max(ans, sum);
             }
         }
 
