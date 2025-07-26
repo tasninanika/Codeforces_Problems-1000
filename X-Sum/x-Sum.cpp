@@ -39,7 +39,7 @@ int main(){
                 ans = max(ans, sum);
             }
         }
-
+        cout << ans << endl;
     }
 
     return 0;
