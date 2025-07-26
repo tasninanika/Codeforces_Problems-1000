@@ -17,6 +17,8 @@ int main(){
             }
         }
 
+        long long ans = -1;
+
     }
 
     return 0;
