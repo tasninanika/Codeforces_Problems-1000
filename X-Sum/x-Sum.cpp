@@ -25,6 +25,9 @@ int main(){
                 for(int x = i, y = j; x < n && y < m; x++, y++){
                     sum += a[x][y];
                 }
+                for(int x = i, y = j; x < n && y >= 0; x++, y--){
+                    sum += a[x][y];
+                }
             }
         }
 
