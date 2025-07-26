@@ -11,7 +11,7 @@ int main(){
 
         int rem[1000];
         for(int i = 0; i < n - 1; i++){
-
+            cin >> rem[i];
         }
     }
 
