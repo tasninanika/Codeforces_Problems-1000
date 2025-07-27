@@ -16,6 +16,8 @@ int main(){
 
             c[x % 3]++;
         }
+
+        int moves = 0;
     }
 
 
