@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        int c[3] = {0, 0, 0};
     }
 
 
