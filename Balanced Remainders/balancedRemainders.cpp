@@ -36,6 +36,7 @@ int main(){
             if(balanced)
                 break;
         }
+        cout << moves << endl;
     }
 
 
