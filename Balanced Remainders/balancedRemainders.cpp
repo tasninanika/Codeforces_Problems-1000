@@ -23,6 +23,7 @@ int main(){
                 if(c[i] > n / 3){
                     int diff = c[i] - n / 3;
                     c[(i + 1) % 3] += diff;
+                    moves += diff;
                 }
             }
         }
