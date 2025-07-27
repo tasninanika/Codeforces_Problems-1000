@@ -24,6 +24,7 @@ int main(){
                     int diff = c[i] - n / 3;
                     c[(i + 1) % 3] += diff;
                     moves += diff;
+                    c[i] -= diff;
                 }
             }
         }
