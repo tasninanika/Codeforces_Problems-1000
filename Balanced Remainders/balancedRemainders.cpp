@@ -33,6 +33,8 @@ int main(){
                     balanced = false;
                 }
             }
+            if(balanced)
+                break;
         }
     }
 
