@@ -18,6 +18,9 @@ int main(){
         }
 
         int moves = 0;
+        while(true){
+
+        }
     }
 
 
