@@ -27,6 +27,7 @@ int main(){
                     c[i] -= diff;
                 }
             }
+            bool balanced = true;
         }
     }
 
