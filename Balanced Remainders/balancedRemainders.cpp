@@ -22,6 +22,7 @@ int main(){
             for(int i = 0; i < 3; i++){
                 if(c[i] > n / 3){
                     int diff = c[i] - n / 3;
+                    c[(i + 1) % 3] += diff;
                 }
             }
         }
