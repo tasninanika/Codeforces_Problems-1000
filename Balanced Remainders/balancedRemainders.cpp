@@ -29,7 +29,9 @@ int main(){
             }
             bool balanced = true;
             for(int i = 0; i < 3; i++){
+                if(c[i] != n / 3){
 
+                }
             }
         }
     }
