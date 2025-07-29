@@ -37,7 +37,7 @@ int main(){
                 c++;
             }
             else{
-
+                freqB[b[i - 1]] = max(freqB[b[i - 1]], c);
             }
         }
     }
