@@ -16,6 +16,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> b[i];
         }
+
+        map<int, int> freqA, freqB;
     }
 
     return 0;
