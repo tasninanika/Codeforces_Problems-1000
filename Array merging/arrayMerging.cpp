@@ -50,6 +50,8 @@ int main(){
         for(auto &p : freqB){
             ans = max(ans, freqA[p.first] + p.second);
         }
+
+        cout << ans << endl;
     }
 
     return 0;
