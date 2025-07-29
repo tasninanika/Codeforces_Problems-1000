@@ -47,6 +47,9 @@ int main(){
         for(auto &p : freqA){
             ans = max(ans, p.second + freqB[p.first]);
         }
+        for(auto &p : freqB){
+            ans = max(ans, freqA[p.first] + p.second);
+        }
     }
 
     return 0;
