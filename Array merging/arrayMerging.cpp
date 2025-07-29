@@ -24,6 +24,9 @@ int main(){
             if(a[i] == a[i - 1]){
                 c++;
             }
+            else{
+
+            }
         }
     }
 
