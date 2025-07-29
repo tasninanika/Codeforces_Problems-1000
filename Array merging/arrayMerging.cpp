@@ -36,6 +36,9 @@ int main(){
             if(b[i] == b[i - 1]){
                 c++;
             }
+            else{
+
+            }
         }
     }
 
