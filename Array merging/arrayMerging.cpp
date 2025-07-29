@@ -33,7 +33,9 @@ int main(){
 
         c = 1;
         for(int i = 1; i < n; i++){
+            if(b[i] == b[i - 1]){
 
+            }
         }
     }
 
