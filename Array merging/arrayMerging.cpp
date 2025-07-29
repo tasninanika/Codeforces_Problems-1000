@@ -18,6 +18,8 @@ int main(){
         }
 
         map<int, int> freqA, freqB;
+
+        int c = 1;
     }
 
     return 0;
