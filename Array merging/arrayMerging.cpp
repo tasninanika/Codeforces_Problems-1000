@@ -32,6 +32,9 @@ int main(){
         freqA[a[n - 1]] = max(freqA[a[n - 1]], c);
 
         c = 1;
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
     return 0;
