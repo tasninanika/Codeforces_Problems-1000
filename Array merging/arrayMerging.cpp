@@ -42,6 +42,8 @@ int main(){
             }
         }
         freqB[b[n - 1]] = max(freqB[b[n - 1]], c);
+
+        int ans = 0;
     }
 
     return 0;
