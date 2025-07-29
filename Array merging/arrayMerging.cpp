@@ -26,6 +26,7 @@ int main(){
             }
             else{
                 freqA[a[i - 1]] = max(freqA[a[i - 1]], c);
+                c = 1;
             }
         }
     }
