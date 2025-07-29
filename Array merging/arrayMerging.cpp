@@ -38,6 +38,7 @@ int main(){
             }
             else{
                 freqB[b[i - 1]] = max(freqB[b[i - 1]], c);
+                c = 1;
             }
         }
     }
