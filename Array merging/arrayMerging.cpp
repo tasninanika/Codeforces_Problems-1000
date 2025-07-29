@@ -20,6 +20,9 @@ int main(){
         map<int, int> freqA, freqB;
 
         int c = 1;
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
     return 0;
