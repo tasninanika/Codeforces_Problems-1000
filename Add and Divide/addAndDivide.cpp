@@ -28,7 +28,7 @@ int main(){
             result = min(result, add + ops);
         }
 
-        cout << result << '\n';
+        cout << result << endl;
     }
 
     return 0;
