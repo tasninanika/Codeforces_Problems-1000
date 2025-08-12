@@ -13,7 +13,7 @@ int main() {
         cin >> n;
 
         priority_queue<long long> pq;
-        for(long long i = n; i >= 1; i--) {
+        for(long long i = n; i >= 1; i--){
             pq.push(i);
         }
 
