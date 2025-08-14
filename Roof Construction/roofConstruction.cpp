@@ -21,7 +21,7 @@ int main(){
         cout << 0 << " ";
 
         for(int i = p; i < n; i++){
-
+            cout << i;
         }
     }
 
