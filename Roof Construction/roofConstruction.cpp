@@ -11,7 +11,7 @@ int main(){
 
         int p = 1;
         while(p * 2 < n){
-
+            p *= 2;
         }
     }
 
