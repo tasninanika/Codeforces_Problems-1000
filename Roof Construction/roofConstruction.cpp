@@ -10,6 +10,9 @@ int main(){
         cin >> n;
 
         int p = 1;
+        while(p * 2 < n){
+
+        }
     }
 
     return 0;
