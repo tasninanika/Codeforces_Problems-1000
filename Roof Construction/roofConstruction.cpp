@@ -22,6 +22,10 @@ int main(){
 
         for(int i = p; i < n; i++){
             cout << i;
+
+            if( i != n - 1){
+
+            }
         }
     }
 
