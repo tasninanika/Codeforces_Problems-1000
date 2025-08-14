@@ -13,6 +13,10 @@ int main(){
         while(p * 2 < n){
             p *= 2;
         }
+
+        for(int i = 1; i < p; i++){
+
+        }
     }
 
     return 0;
