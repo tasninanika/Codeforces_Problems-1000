@@ -24,7 +24,7 @@ int main(){
             cout << i;
 
             if( i != n - 1){
-
+                cout << " ";
             }
         }
     }
