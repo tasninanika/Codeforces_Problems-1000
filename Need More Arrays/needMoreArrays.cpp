@@ -1,23 +1,29 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
-    while(t--){
+    while (t--) {
         int n;
         cin >> n;
-
         vector<int> a(n);
-        for(int i = 0; i < n; i++)
-            cin >> a[i];
+        for (int &x : a)
+            cin >> x;
 
-        set<int> s(a.begin(), a.end());
+        int count_arrays = 0;
+        int last = -1;
 
-        cout << s.size() << endl;
+        for (int i = 0; i < n; i++) {
+            if (last + 1 < a[i]) {
+                count_arrays++;
+                last = a[i];
+            }
+        }
+
+        cout << count_arrays << endl;
     }
 
     return 0;
 }
-
