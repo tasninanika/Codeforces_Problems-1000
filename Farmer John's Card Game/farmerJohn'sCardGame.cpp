@@ -25,7 +25,7 @@ int main() {
 
         sort(cows.begin(), cows.end());
 
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++){
             cout << cows[i].second << " ";
         }
         cout << endl;
