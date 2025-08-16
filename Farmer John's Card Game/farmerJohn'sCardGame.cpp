@@ -30,18 +30,19 @@ int main() {
                     ok = false;
                 }
             }
-            if (!ok) break;
+            if (!ok)
+                break;
             perm[a[i][0] % n] = i + 1;
         }
 
         if (!ok) {
-            cout << -1 << "\n";
+            cout << -1 << endl;
         }
         else {
             for (int i = 0; i < n; i++) {
                 cout << perm[i] << " ";
             }
-            cout << "\n";
+            cout << endl;
         }
     }
     return 0;
