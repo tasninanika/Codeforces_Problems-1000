@@ -10,8 +10,9 @@ int main() {
     while (t--) {
         int n, m;
         cin >> n >> m;
+
         vector<vector<int>> cards(n, vector<int>(m));
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++){
             for (int j = 0; j < m; j++) {
                 cin >> cards[i][j];
             }
