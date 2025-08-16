@@ -19,7 +19,7 @@ int main() {
         }
 
         vector<pair<int,int>> cows;
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++){
             cows.push_back({cards[i][0], i+1});
         }
 
