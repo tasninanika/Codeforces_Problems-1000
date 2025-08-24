@@ -22,6 +22,9 @@ int main(){
         if(bars[i] == v){
             counts[bars[i]]++;
         }
+        else{
+
+        }
     }
 
     return 0;
