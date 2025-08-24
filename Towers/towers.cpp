@@ -8,6 +8,10 @@ int main(){
     vector<int> bars;
     map<int, int> counts;
 
+    for(int i = 0; i < n; i++){
+
+    }
+
 
     return 0;
 }
