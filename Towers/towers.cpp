@@ -25,6 +25,10 @@ int main(){
         else{
             counts[bars[i]] = 1;
         }
+
+        if(counts[bars[i]] > max){
+
+        }
     }
 
     return 0;
