@@ -19,7 +19,9 @@ int main(){
     counts[v] = 1;
 
     for(int i = 1; i < n; i++){
+        if(bars[i] == v){
 
+        }
     }
 
     return 0;
