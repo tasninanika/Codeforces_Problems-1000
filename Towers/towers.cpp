@@ -29,6 +29,8 @@ int main(){
         if(counts[bars[i]] > max){
             max = counts[bars[i]];
         }
+
+        v = bars[i];
     }
 
     return 0;
