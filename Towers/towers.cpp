@@ -23,7 +23,7 @@ int main(){
             counts[bars[i]]++;
         }
         else{
-
+            counts[bars[i]] = 1;
         }
     }
 
