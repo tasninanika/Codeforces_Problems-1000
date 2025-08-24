@@ -10,6 +10,7 @@ int main(){
 
     for(int i = 0; i < n; i++){
         cin >> t;
+        bars.push_back(t);
     }
 
 
