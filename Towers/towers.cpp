@@ -16,6 +16,7 @@ int main(){
     sort(bars.begin(), bars.end());
     int max = 1;
     int v = bars[0];
+    counts[v] = 1;
 
     return 0;
 }
