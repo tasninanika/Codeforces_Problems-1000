@@ -14,6 +14,7 @@ int main(){
     }
 
     sort(bars.begin(), bars.end());
+    int max = 1;
 
     return 0;
 }
