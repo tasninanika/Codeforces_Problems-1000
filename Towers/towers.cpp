@@ -31,9 +31,8 @@ int main(){
         }
 
         v = bars[i];
-
-        cout << maxi << " " << counts.size() << endl;
     }
+    cout << maxi << " " << counts.size() << endl;
 
     return 0;
 }
