@@ -13,6 +13,7 @@ int main(){
         bars.push_back(t);
     }
 
+    sort(bars.begin(), bars.end());
 
     return 0;
 }
