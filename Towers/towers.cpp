@@ -27,7 +27,7 @@ int main(){
         }
 
         if(counts[bars[i]] > max){
-
+            max = counts[bars[i]];
         }
     }
 
