@@ -14,7 +14,7 @@ int main(){
     }
 
     sort(bars.begin(), bars.end());
-    int max = 1;
+    int maxi = 1;
     int v = bars[0];
     counts[v] = 1;
 
@@ -26,13 +26,13 @@ int main(){
             counts[bars[i]] = 1;
         }
 
-        if(counts[bars[i]] > max){
-            max = counts[bars[i]];
+        if(counts[bars[i]] > maxi){
+            maxi = counts[bars[i]];
         }
 
         v = bars[i];
 
-        cout << max << " " << counts.size() << endl;
+        cout << maxi << " " << counts.size() << endl;
     }
 
     return 0;
