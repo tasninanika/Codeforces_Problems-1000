@@ -9,7 +9,7 @@ int main(){
     map<int, int> counts;
 
     for(int i = 0; i < n; i++){
-
+        cin >> t;
     }
 
 
