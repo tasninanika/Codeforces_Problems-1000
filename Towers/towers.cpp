@@ -18,5 +18,9 @@ int main(){
     int v = bars[0];
     counts[v] = 1;
 
+    for(int i = 1; i < n; i++){
+
+    }
+
     return 0;
 }
