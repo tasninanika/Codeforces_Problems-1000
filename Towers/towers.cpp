@@ -6,6 +6,7 @@ int main(){
     cin >> n;
 
     vector<int> bars;
+    map<int, int> counts;
 
 
     return 0;
