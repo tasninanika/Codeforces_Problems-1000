@@ -16,7 +16,7 @@ int main(){
 
         bool found = false;
         if(n % 2 == 0){
-
+            long long x = sqrt(n / 2);
         }
     }
 
