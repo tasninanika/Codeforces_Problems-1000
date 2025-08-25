@@ -26,6 +26,9 @@ int main(){
         }
         if(!found && n % 4 == 0){
             long long x = sqrt(n / 4);
+            for(long long i = x - 10; i <= x + 10; i++){
+
+            }
         }
     }
 
