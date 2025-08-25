@@ -25,7 +25,7 @@ int main(){
             }
         }
         if(!found && n % 4 == 0){
-
+            long long x = sqrt(n / 4);
         }
     }
 
