@@ -13,6 +13,8 @@ int main(){
             cout << "NO" << endl;
             continue;
         }
+
+        bool found = false;
     }
 
     return 0;
