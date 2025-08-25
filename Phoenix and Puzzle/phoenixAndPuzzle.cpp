@@ -33,6 +33,8 @@ int main(){
                 }
             }
         }
+        if(found)
+            cout << "YES" << endl;
     }
 
     return 0;
