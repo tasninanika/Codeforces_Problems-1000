@@ -24,6 +24,9 @@ int main(){
                 }
             }
         }
+        if(!found && n % 4 == 0){
+
+        }
     }
 
     return 0;
