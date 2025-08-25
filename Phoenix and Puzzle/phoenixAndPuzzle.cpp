@@ -11,6 +11,7 @@ int main(){
 
         if(n % 2 == 1){
             cout << "NO" << endl;
+            continue;
         }
     }
 
