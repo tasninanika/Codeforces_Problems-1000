@@ -19,7 +19,7 @@ int main(){
             long long x = sqrt(n / 2);
             for(long long i = x - 10; i <= x + 10; i++){
                 if(i >= 0 && i * i == n / 2){
-
+                    found = true;
                 }
             }
         }
