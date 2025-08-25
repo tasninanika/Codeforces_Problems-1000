@@ -15,6 +15,9 @@ int main(){
         }
 
         bool found = false;
+        if(n % 2 == 0){
+
+        }
     }
 
     return 0;
