@@ -18,7 +18,9 @@ int main(){
         if(n % 2 == 0){
             long long x = sqrt(n / 2);
             for(long long i = x - 10; i <= x + 10; i++){
+                if(i >= 0 && i * i == n / 2){
 
+                }
             }
         }
     }
