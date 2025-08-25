@@ -29,6 +29,7 @@ int main(){
             for(long long i = x - 10; i <= x + 10; i++){
                 if(i >= 0 && i * i == n / 4){
                     found = true;
+                    break;
                 }
             }
         }
