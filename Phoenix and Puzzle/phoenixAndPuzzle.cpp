@@ -28,7 +28,7 @@ int main(){
             long long x = sqrt(n / 4);
             for(long long i = x - 10; i <= x + 10; i++){
                 if(i >= 0 && i * i == n / 4){
-
+                    found = true;
                 }
             }
         }
