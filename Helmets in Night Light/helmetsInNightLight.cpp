@@ -28,6 +28,7 @@ int main(){
         });
 
         long long total_cost = p;
+        long long remaining_residents = n - 1;
 
     }
 
