@@ -41,6 +41,8 @@ int main(){
 
             long long can_inform = a[idx];
             long long inform_now = std::min(remaining_residents, can_inform);
+
+            total_cost += inform_now * b[idx];
         }
 
     }
