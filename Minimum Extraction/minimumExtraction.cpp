@@ -25,6 +25,8 @@ int main(){
         for(int i = 1; i < n; i++){
             max_min = max(max_min, a[i] - a[i - 1]);
         }
+
+        cout << max_min << endl;
     }
 
     return 0;
