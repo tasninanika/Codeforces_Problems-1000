@@ -34,6 +34,8 @@ int main(){
             int idx = indices[i];
 
             if(b[idx] >= p){
+                total_cost += remaining_residents * p;
+            }
         }
 
     }
