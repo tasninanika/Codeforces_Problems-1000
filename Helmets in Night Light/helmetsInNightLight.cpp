@@ -17,7 +17,7 @@ int main(){
 
         vector<long long> b(n);
         for(int i = 0; i < n; i++){
-
+            cin >> b[i];
         }
 
     }
