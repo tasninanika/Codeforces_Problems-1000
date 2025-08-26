@@ -20,6 +20,8 @@ int main(){
             cout << a[0] << endl;
             continue;
         }
+
+        long long max_min = a[0];
     }
 
     return 0;
