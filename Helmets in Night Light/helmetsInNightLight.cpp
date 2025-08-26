@@ -21,6 +21,7 @@ int main(){
         }
 
         vector<int> indices(n);
+        iota(indices.begin(), indices.end(), 0);
 
     }
 
