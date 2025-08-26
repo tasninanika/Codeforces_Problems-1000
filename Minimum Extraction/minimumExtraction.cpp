@@ -18,6 +18,7 @@ int main(){
 
         if(n == 1){
             cout << a[0] << endl;
+            continue;
         }
     }
 
