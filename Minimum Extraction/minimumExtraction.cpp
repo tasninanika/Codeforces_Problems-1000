@@ -23,7 +23,7 @@ int main(){
 
         long long max_min = a[0];
         for(int i = 1; i < n; i++){
-
+            max_min = max(max_min, a[i] - a[i - 1]);
         }
     }
 
