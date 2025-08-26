@@ -40,6 +40,7 @@ int main(){
             }
 
             long long can_inform = a[idx];
+            long long inform_now = std::min(remaining_residents, can_inform);
         }
 
     }
