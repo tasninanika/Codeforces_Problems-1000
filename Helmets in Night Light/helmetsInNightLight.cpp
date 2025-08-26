@@ -38,6 +38,8 @@ int main(){
                 remaining_residents = 0;
                 break;
             }
+
+            long long can_inform = a[idx];
         }
 
     }
