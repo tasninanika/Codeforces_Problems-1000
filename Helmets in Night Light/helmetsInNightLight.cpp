@@ -36,6 +36,7 @@ int main(){
             if(b[idx] >= p){
                 total_cost += remaining_residents * p;
                 remaining_residents = 0;
+                break;
             }
         }
 
