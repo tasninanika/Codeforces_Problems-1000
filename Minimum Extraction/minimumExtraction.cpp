@@ -15,6 +15,10 @@ int main(){
         }
 
         sort(a.begin(), a.end());
+
+        if(n == 1){
+
+        }
     }
 
     return 0;
