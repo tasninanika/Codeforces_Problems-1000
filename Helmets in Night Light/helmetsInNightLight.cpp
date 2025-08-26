@@ -27,6 +27,8 @@ int main(){
             return b[i] < b[j];
         });
 
+        long long total_cost = p;
+
     }
 
 
