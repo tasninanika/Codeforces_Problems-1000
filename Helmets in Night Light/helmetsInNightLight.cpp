@@ -20,6 +20,8 @@ int main(){
             cin >> b[i];
         }
 
+        vector<int> indices(n);
+
     }
 
 
