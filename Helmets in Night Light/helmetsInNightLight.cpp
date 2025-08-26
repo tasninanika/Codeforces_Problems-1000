@@ -32,6 +32,8 @@ int main(){
 
         for(int i = 0; i < n && remaining_residents > 0; ++i){
             int idx = indices[i];
+
+            if(b[idx] >= p){
         }
 
     }
