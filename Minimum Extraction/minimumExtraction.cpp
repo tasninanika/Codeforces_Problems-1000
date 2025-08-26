@@ -17,7 +17,7 @@ int main(){
         sort(a.begin(), a.end());
 
         if(n == 1){
-
+            cout << a[0] << endl;
         }
     }
 
