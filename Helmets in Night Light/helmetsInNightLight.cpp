@@ -23,9 +23,9 @@ int main(){
         vector<int> indices(n);
         iota(indices.begin(), indices.end(), 0);
 
-        sort(indices.begin(), indices.end(), [&](int i, int j){
-             return b[i] < b[j];
-        }
+        sort(indices.begin(), indices.end(), [&](int i, int j) {
+            return b[i] < b[j];
+        });
 
     }
 
