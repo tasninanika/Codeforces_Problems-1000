@@ -31,7 +31,7 @@ int main(){
         long long remaining_residents = n - 1;
 
         for(int i = 0; i < n && remaining_residents > 0; ++i){
-
+            int idx = indices[i];
         }
 
     }
