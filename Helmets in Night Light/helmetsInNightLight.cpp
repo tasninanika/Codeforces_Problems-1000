@@ -24,7 +24,7 @@ int main(){
         iota(indices.begin(), indices.end(), 0);
 
         sort(indices.begin(), indices.end(), [&](int i, int j){
-
+             return b[i] < b[j];
         }
 
     }
