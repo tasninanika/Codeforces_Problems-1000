@@ -32,6 +32,8 @@ int main(){
 
         int k3;
         cin >> k3;
+
+        vector<long long> y1(k3);
     }
 
 
