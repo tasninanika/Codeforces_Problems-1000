@@ -41,6 +41,7 @@ int main(){
         max_doubled_area = max(max_doubled_area, base3 * w);
 
         int k4;
+        cin >> k4;
     }
 
 
