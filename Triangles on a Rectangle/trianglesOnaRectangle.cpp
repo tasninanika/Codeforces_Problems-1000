@@ -9,6 +9,8 @@ int main(){
         long long w, h;
         cin >> w >> h;
 
+        long long max_doubled_area = 0;
+
         int k1;
         cin >> k1;
 
