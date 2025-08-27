@@ -10,6 +10,7 @@ int main(){
         cin >> w >> h;
 
         int k1;
+        cin >> k1;
     }
 
 
