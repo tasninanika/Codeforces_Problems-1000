@@ -14,7 +14,7 @@ int main(){
 
         vector<long long> x1(k1);
         for(int i = 0; i < k1; i++){
-
+            cin >> x1[i];
         }
     }
 
