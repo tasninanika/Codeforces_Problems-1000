@@ -45,7 +45,7 @@ int main(){
 
         vector<long long> y2(k4);
         for(int i = 0; i < k4; i++){
-
+            cin >> y2[i];
         }
     }
 
