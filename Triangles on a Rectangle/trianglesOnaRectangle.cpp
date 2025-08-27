@@ -42,6 +42,8 @@ int main(){
 
         int k4;
         cin >> k4;
+
+        vector<long long> y2(k4);
     }
 
 
