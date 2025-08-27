@@ -25,7 +25,7 @@ int main(){
 
         vector<long long> x2(k2);
         for(int i = 0; i < k2; i++){
-
+            cin >> x2[i];
         }
     }
 
