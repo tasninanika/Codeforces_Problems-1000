@@ -47,6 +47,8 @@ int main(){
         for(int i = 0; i < k4; i++){
             cin >> y2[i];
         }
+
+        long long base4 = y2.back() - y2.front();
     }
 
 
