@@ -38,6 +38,7 @@ int main(){
             cin >> y1[i];
         }
         long long base3 = y1.back() - y1.front();
+        max_doubled_area = max(max_doubled_area, base3 * w);
     }
 
 
