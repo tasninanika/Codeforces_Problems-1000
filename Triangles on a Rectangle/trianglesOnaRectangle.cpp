@@ -49,6 +49,7 @@ int main(){
         }
 
         long long base4 = y2.back() - y2.front();
+        max_doubled_area = max(max_doubled_area, base4 * w);
     }
 
 
