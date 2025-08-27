@@ -16,6 +16,8 @@ int main(){
         for(int i = 0; i < k1; i++){
             cin >> x1[i];
         }
+
+        long long base1 = x1.back() - x1.front();
     }
 
 
