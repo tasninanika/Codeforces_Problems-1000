@@ -28,6 +28,7 @@ int main(){
             cin >> x2[i];
         }
         long long base2 = x2.back() - x2.front();
+        max_doubled_area = max(max_doubled_area, base2 * h);
     }
 
 
