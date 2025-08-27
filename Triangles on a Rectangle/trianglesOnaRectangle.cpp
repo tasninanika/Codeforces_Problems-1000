@@ -22,6 +22,8 @@ int main(){
 
         int k2;
         cin >> k2;
+
+        vector<long long> x2(k2);
     }
 
 
