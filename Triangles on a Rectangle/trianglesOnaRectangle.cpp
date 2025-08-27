@@ -37,6 +37,7 @@ int main(){
         for(int i = 0; i < k3; i++){
             cin >> y1[i];
         }
+        long long base3 = y1.back() - y1.front();
     }
 
 
