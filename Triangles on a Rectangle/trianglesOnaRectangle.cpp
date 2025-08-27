@@ -27,6 +27,7 @@ int main(){
         for(int i = 0; i < k2; i++){
             cin >> x2[i];
         }
+        long long base2 = x2.back() - x2.front();
     }
 
 
