@@ -44,6 +44,9 @@ int main(){
         cin >> k4;
 
         vector<long long> y2(k4);
+        for(int i = 0; i < k4; i++){
+
+        }
     }
 
 
