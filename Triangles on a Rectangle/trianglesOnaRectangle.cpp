@@ -11,6 +11,8 @@ int main(){
 
         int k1;
         cin >> k1;
+
+        vector<long long> x1(k1);
     }
 
 
