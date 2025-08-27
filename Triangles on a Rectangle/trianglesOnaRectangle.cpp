@@ -39,6 +39,8 @@ int main(){
         }
         long long base3 = y1.back() - y1.front();
         max_doubled_area = max(max_doubled_area, base3 * w);
+
+        int k4;
     }
 
 
