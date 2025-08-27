@@ -35,7 +35,7 @@ int main(){
 
         vector<long long> y1(k3);
         for(int i = 0; i < k3; i++){
-
+            cin >> y1[i];
         }
     }
 
