@@ -18,9 +18,10 @@ int main(){
         }
 
         long long base1 = x1.back() - x1.front();
-         max_doubled_area = max(max_doubled_area, base1 * h);
+        max_doubled_area = max(max_doubled_area, base1 * h);
 
-         int k2;
+        int k2;
+        cin >> k2;
     }
 
 
