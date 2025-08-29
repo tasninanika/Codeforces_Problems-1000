@@ -12,7 +12,7 @@ int main(){
         vector<bool> known_questions(n + 1, false);
 
         vector<int> a(m);
-        for (int i = 0; i < m; i++) {
+        for(int i = 0; i < m; i++){
             cin >> a[i];
         }
 
@@ -23,13 +23,13 @@ int main(){
         }
 
         string result = "";
-        for(int i = 0; i < m; i++) {
+        for(int i = 0; i < m; i++){
             int excluded_question = a[i];
 
             if(known_questions[excluded_question] == false) {
                 result += '1';
             }
-            else {
+            else{
                 result += '0';
             }
         }
