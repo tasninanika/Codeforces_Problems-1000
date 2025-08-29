@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+using namespace std;
 
 int main() {
     std::ios_base::sync_with_stdio(false);
@@ -8,7 +9,8 @@ int main() {
 
     int t;
     cin >> t;
-    while (t--) {
+
+    while(t--){
         int n, m, k;
         cin >> n >> m >> k;
 
