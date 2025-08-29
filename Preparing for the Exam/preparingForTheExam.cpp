@@ -1,38 +1,38 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
-    while(t--){
+    while (t--) {
         int n, m, k;
         cin >> n >> m >> k;
 
-        vector<bool> known_questions(n + 1, false);
-
         vector<int> a(m);
-        for(int i = 0; i < m; i++){
-            cin >> a[i];
-        }
+        for (int i = 0; i < m; i++) cin >> a[i];
 
-        for(int i = 0; i < k; i++){
+        vector<bool> known(n + 1, false);
+        for (int i = 0; i < k; i++) {
             int q;
             cin >> q;
-            known_questions[q] = true;
+            known[q] = true;
         }
 
         string result = "";
-        for(int i = 0; i < m; i++){
-            int excluded_question = a[i];
+        for (int i = 0; i < m; i++) {
+            int excluded = a[i];
 
-            if(known_questions[excluded_question] == false) {
+            if (k == n) {
                 result += '1';
-            }
-            else{
+            } else if (k == n - 1) {
+                if (!known[excluded]) result += '1';
+                else result += '0';
+            } else {
                 result += '0';
             }
         }
+
         cout << result << endl;
     }
 
