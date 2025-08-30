@@ -9,48 +9,35 @@ int main(){
         int n;
         cin >> n;
 
-        vector<vector<int>> sequences(n, vector<int>(n - 1));
-        map<int, int> first_element_counts;
+        vector<vector<int>> seq(n, vector<int>(n - 1));
+        map<int, int> freq;
 
-        for(int i = 0; i < n; ++i){
-            for(int j = 0; j < n - 1; j++){
-                cin >> sequences[i][j];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - 1; j++) {
+                cin >> seq[i][j];
             }
-            first_element_counts[sequences[i][0]]++;
+            freq[seq[i][0]]++;
         }
 
-        vector<int> p(n);
-        int second_element = 0;
-        int first_element = 0;
-
-        for(const auto& pair : first_element_counts){
-            if(pair.second == n - 1){
-                second_element = pair.first;
-            }
-            else{
-                first_element = pair.first;
-            }
+        int p1 = -1, p2 = -1;
+        for (auto &[val, count] : freq) {
+            if (count == n - 1) p1 = val;
+            else p2 = val;
         }
 
-        p[0] = first_element;
-        p[1] = second_element;
-
-        vector<int> first_original_sequence;
-        for(int i = 0; i < n; i++){
-            if (sequences[i][0] == second_element) {
-                first_original_sequence = sequences[i];
+        vector<int> perm;
+        perm.push_back(p1);
+        for (int i = 0; i < n; i++) {
+            if (seq[i][0] == p2) {
+                for (int x : seq[i]) perm.push_back(x);
                 break;
             }
         }
 
-        for(int i = 2; i < n; i++){
-            p[i] = first_original_sequence[i - 1];
+        for (int i = 0; i < n; i++) {
+            cout << perm[i] << (i + 1 == n ? '\n' : ' ');
         }
-
-        for(int i = 0; i < n; i++){
-            cout << p[i] << (i == n - 1 ? "" : " ");
-        }
-        cout << endl;
     }
+
     return 0;
 }
