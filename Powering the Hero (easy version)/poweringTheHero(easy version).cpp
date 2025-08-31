@@ -2,38 +2,29 @@
 using namespace std;
 
 int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
     int t;
-    cin >> t;
-
-    while(t--){
+    if (!(cin >> t))
+        return 0;
+    while (t--) {
         int n;
         cin >> n;
 
-        vector<long long> bonus;
-        int heroes = 0;
-
-        for(int i = 0; i < n; i++){
+        priority_queue<long long> pq;
+        long long ans = 0;
+        for (int i = 0; i < n; ++i) {
             long long x;
             cin >> x;
-
-            if(x == 0)
-                heroes++;
-            else
-                bonus.push_back(x);
+            if (x > 0) {
+                pq.push(x);
+            }
+            else {
+                if (!pq.empty()) {
+                    ans += pq.top();
+                    pq.pop();
+                }
+            }
         }
-
-        sort(bonus.rbegin(), bonus.rend());
-
-        long long ans = 0;
-        for(int i = 0; i < heroes && i < (int)bonus.size(); i++){
-            ans += bonus[i];
-        }
-
         cout << ans << endl;
     }
     return 0;
 }
-
