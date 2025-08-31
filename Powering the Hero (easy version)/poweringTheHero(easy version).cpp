@@ -32,7 +32,7 @@ int main(){
             ans += bonus[i];
         }
 
-        cout << ans << "\n";
+        cout << ans << endl;
     }
     return 0;
 }
