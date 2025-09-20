@@ -12,6 +12,10 @@ int main(){
         sum += arr[distance];
     }
 
+    for(distance = 1; distance < pos && distance <= numOfcity - pos; distance++){
+
+    }
+
 
     return 0;
 }
