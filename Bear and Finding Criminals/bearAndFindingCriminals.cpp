@@ -13,7 +13,9 @@ int main(){
     }
 
     for(distance = 1; distance < pos && distance <= numOfcity - pos; distance++){
+        if(arr[pos + distance] + arr[pos - distance] == 1){
 
+        }
     }
 
 
