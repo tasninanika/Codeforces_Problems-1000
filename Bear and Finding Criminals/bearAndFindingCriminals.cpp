@@ -9,6 +9,7 @@ int main(){
 
     for(distance = 1; distance <= numOfcity; distance++){
         cin >> arr[distance];
+        sum += arr[distance];
     }
 
 
