@@ -7,6 +7,10 @@ int main(){
 
     vector<int> arr(numOfcity + 1);
 
+    for(distance = 1; distance <= numOfcity; distance++){
+
+    }
+
 
     return 0;
 }
