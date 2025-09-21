@@ -18,7 +18,7 @@ int main(){
 
         int max_attendees = 1;
         if(a[i] <= (i + 1)){
-
+            max_attendees = i + 2;
         }
     }
 
