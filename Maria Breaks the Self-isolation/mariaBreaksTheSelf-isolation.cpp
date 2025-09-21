@@ -22,7 +22,7 @@ int main(){
                 max_attendees = i + 2;
             }
         }
-
+        cout << max_attendees << endl;
     }
 
 
