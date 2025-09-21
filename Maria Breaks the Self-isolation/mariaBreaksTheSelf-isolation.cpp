@@ -15,6 +15,8 @@ int main(){
         }
 
         sort(a.begin(), a.end());
+
+        int max_attendees = 1;
     }
 
 
