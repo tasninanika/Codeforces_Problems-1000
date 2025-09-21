@@ -17,9 +17,12 @@ int main(){
         sort(a.begin(), a.end());
 
         int max_attendees = 1;
-        if(a[i] <= (i + 1)){
-            max_attendees = i + 2;
+        for(int i = 0; i < n; i++){
+            if(a[i] <= (i + 1)){
+                max_attendees = i + 2;
+            }
         }
+
     }
 
 
