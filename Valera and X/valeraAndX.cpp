@@ -14,7 +14,7 @@ int main(){
     char other_char = grid[0][1];
 
     if(diag_char == other_char){
-
+        cout << "NO" << endl;
     }
 
 
