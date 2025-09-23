@@ -42,7 +42,7 @@ int main(){
     }
 
     if(is_x){
-
+        cout << "YES" << endl;
     }
 
 
