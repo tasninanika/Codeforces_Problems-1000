@@ -10,6 +10,8 @@ int main(){
         cin >> grid[i];
     }
 
+    char diag_char = grid[0][0];
+
 
 
     return 0;
