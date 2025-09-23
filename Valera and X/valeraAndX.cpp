@@ -25,7 +25,7 @@ int main(){
 
             if(on_diag){
                 if(grid[i][j] != diag_char){
-
+                    is_x = false;
                 }
             }
         }
