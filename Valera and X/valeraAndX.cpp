@@ -24,7 +24,9 @@ int main(){
             bool on_diag = (i == j) || (i + j == n - 1);
 
             if(on_diag){
+                if(grid[i][j] != diag_char){
 
+                }
             }
         }
     }
