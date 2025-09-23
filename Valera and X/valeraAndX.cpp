@@ -37,7 +37,7 @@ int main(){
             }
         }
         if(!is_x){
-
+            break;
         }
     }
 
