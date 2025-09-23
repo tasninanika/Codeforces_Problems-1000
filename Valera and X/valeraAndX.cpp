@@ -11,6 +11,7 @@ int main(){
     }
 
     char diag_char = grid[0][0];
+    char other_char = grid[0][1];
 
 
 
