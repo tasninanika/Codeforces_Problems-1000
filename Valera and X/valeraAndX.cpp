@@ -30,7 +30,9 @@ int main(){
                 }
             }
             else{
+                if(grid[i][j] != other_char){
 
+                }
             }
         }
     }
