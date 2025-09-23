@@ -7,7 +7,7 @@ int main(){
 
     vector<string> grid(n);
     for(int i = 0; i < n; i++){
-
+        cin >> grid[i];
     }
 
 
