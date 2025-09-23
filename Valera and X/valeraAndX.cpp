@@ -18,6 +18,8 @@ int main(){
         return 0;
     }
 
+    bool is_x = true;
+
 
 
     return 0;
