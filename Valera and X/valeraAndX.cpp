@@ -15,6 +15,7 @@ int main(){
 
     if(diag_char == other_char){
         cout << "NO" << endl;
+        return 0;
     }
 
 
