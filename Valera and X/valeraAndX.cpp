@@ -21,7 +21,7 @@ int main(){
     bool is_x = true;
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
-
+            bool on_diag = (i == j) || (i + j == n - 1);
         }
     }
 
