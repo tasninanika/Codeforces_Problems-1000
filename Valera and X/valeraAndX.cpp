@@ -32,6 +32,7 @@ int main(){
             else{
                 if(grid[i][j] != other_char){
                     is_x = false;
+                    break;
                 }
             }
         }
