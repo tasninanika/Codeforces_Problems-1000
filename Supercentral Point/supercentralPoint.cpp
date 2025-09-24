@@ -6,6 +6,9 @@ int main(){
     cin >> n;
 
     vector<pair<int, int>> points(n);
+    for(int i = 0; i < n; i++){
+
+    }
 
 
     return 0;
