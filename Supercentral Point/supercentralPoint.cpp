@@ -10,7 +10,7 @@ int main(){
         cin >> points[i].first >> points[i].second;
     }
 
-    int supoercentral_count = 0;
+    int suporcentral_count = 0;
     for(int i = 0; i < n; i++){
         bool has_left = false;
         bool has_right = false;
