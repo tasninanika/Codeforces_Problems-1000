@@ -27,6 +27,9 @@ int main(){
             if(points[j].first > points[i].first && points[j].second == points[i].second){
                 has_right = true;
             }
+            if(points[j].first == points[i].first && points[j].second < points[i].second){
+                has_lower = true;
+            }
         }
     }
 
