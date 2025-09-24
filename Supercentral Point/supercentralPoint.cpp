@@ -18,7 +18,9 @@ int main(){
         bool has_upper = false;
 
         for(int j = 0; j < n; j++){
-
+            if(i == j){
+                continue;
+            }
         }
     }
 
