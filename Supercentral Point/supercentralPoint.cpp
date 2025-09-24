@@ -11,6 +11,9 @@ int main(){
     }
 
     int supoercentral_count = 0;
+    for(int i = 0; i < n; i++){
+
+    }
 
 
     return 0;
