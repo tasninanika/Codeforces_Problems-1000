@@ -16,6 +16,10 @@ int main(){
         bool has_right = false;
         bool has_lower = false;
         bool has_upper = false;
+
+        for(int j = 0; j < n; j++){
+
+        }
     }
 
 
