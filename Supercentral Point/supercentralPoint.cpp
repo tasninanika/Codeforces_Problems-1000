@@ -12,7 +12,10 @@ int main(){
 
     int supoercentral_count = 0;
     for(int i = 0; i < n; i++){
-
+        bool has_left = false;
+        bool has_right = false;
+        bool has_lower = false;
+        bool has_upper = false;
     }
 
 
