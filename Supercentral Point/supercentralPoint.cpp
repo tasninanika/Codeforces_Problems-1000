@@ -10,6 +10,8 @@ int main(){
         cin >> points[i].first >> points[i].second;
     }
 
+    int supoercentral_count = 0;
+
 
     return 0;
 }
