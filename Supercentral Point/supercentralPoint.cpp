@@ -38,6 +38,7 @@ int main(){
             supercentral_count++;
         }
     }
+    cout << supercentral_count << endl;
 
 
     return 0;
