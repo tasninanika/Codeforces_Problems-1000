@@ -34,6 +34,9 @@ int main(){
                 has_upper = true;
             }
         }
+        if(has_left && has_right && has_lower && has_upper){
+            supercentral_count++;
+        }
     }
 
 
