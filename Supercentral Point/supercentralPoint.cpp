@@ -22,7 +22,7 @@ int main(){
                 continue;
             }
             if(points[j].first < points[i].first && points[j].second == points[i].second){
-
+                has_left = true;
             }
         }
     }
