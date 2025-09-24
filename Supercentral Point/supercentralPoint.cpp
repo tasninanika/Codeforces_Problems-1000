@@ -21,6 +21,9 @@ int main(){
             if(i == j){
                 continue;
             }
+            if(points[j].first < points[i].first && points[j].second == points[i].second){
+
+            }
         }
     }
 
