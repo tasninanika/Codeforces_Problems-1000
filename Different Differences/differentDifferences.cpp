@@ -21,7 +21,7 @@ int main(){
                 current_diff++;
             }
             else {
-
+                result.push_back(result.back() + 1);
             }
         }
     }
