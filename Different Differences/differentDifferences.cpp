@@ -20,6 +20,9 @@ int main(){
                 result.push_back(next_val);
                 current_diff++;
             }
+            else {
+
+            }
         }
     }
 
