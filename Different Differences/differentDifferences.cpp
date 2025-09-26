@@ -25,7 +25,7 @@ int main(){
             }
         }
     }
-    for (int i = 0; i < k; i++) {
+    if (!result.empty()) {
 
     }
 
