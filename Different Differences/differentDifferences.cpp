@@ -24,13 +24,14 @@ int main(){
                 result.push_back(result.back() + 1);
             }
         }
-    }
-    if (!result.empty()) {
-        cout << result[0];
-        for (int i = 1; i < result.size(); i++) {
-                cout << " " << result[i];
+
+        if (!result.empty()) {
+            cout << result[0];
+            for (int i = 1; i < result.size(); i++) {
+                    cout << " " << result[i];
+            }
+            cout << endl;
         }
-        cout << endl;
     }
 
 
