@@ -26,6 +26,7 @@ int main(){
         }
     }
     if (!result.empty()) {
+            cout << result[0];
 
     }
 
