@@ -17,7 +17,7 @@ int main(){
             int next_val = result.back() + current_diff;
 
             if (next_val + (k - (result.size() + 1)) <= n) {
-
+                result.push_back(next_val);
             }
         }
     }
