@@ -1,39 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
-    while(t--){
-        int n, k;
-        cin >> n >> k;
+    while (t--) {
+        int k, n;
+        cin >> k >> n;
 
-        vector<int> result;
-        result.push_back(1);
+        int diff = 1;
+        vector<int> ans = {1};
 
-        int current_diff = 1;
-        while (result.size() < k) {
-            int next_val = result.back() + current_diff;
+        for (int i = 2; i <= k; i++) {
+            int nxt = ans.back() + diff;
+            int remElements = n - nxt;
+            int remPlaces = k - i;
 
-            if (next_val + (k - (result.size() + 1)) <= n) {
-                result.push_back(next_val);
-                current_diff++;
+            if (remElements >= remPlaces) {
+                ans.push_back(nxt);
+                diff++;
             }
             else {
-                result.push_back(result.back() + 1);
+                ans.push_back(ans.back() + 1);
             }
         }
 
-        if (!result.empty()) {
-            cout << result[0];
-            for (int i = 1; i < result.size(); i++) {
-                    cout << " " << result[i];
-            }
-            cout << endl;
-        }
+        for (int x : ans)
+            cout << x << " ";
+
+        cout << endl;
     }
-
 
     return 0;
 }
