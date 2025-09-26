@@ -30,6 +30,7 @@ int main(){
         for (int i = 1; i < result.size(); i++) {
                 cout << " " << result[i];
         }
+        cout << endl;
     }
 
 
