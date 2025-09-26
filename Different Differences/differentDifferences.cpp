@@ -10,6 +10,7 @@ int main(){
         cin >> n >> k;
 
         vector<int> result;
+        result.push_back(1);
     }
 
 
