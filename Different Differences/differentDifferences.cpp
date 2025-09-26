@@ -26,7 +26,8 @@ int main(){
         }
     }
     if (!result.empty()) {
-            cout << result[0];
+        cout << result[0];
+        for (int i = 1; i < result.size(); ++i) {
 
     }
 
