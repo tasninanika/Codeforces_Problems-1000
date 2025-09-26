@@ -15,6 +15,10 @@ int main(){
         int current_diff = 1;
         while (result.size() < k) {
             int next_val = result.back() + current_diff;
+
+            if (next_val + (k - (result.size() + 1)) <= n) {
+
+            }
         }
     }
 
