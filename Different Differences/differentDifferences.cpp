@@ -13,6 +13,9 @@ int main(){
         result.push_back(1);
 
         int current_diff = 1;
+        while (result.size() < k) {
+
+        }
     }
 
 
