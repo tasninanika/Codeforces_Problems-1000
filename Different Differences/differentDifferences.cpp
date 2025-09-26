@@ -27,7 +27,7 @@ int main(){
     }
     if (!result.empty()) {
         cout << result[0];
-        for (int i = 1; i < result.size(); ++i) {
+        for (int i = 1; i < result.size(); i++) {
 
     }
 
