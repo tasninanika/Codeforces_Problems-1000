@@ -11,6 +11,8 @@ int main(){
 
         vector<int> result;
         result.push_back(1);
+
+        int current_diff = 1;
     }
 
 
