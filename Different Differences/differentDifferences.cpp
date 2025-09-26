@@ -29,6 +29,7 @@ int main(){
         cout << result[0];
         for (int i = 1; i < result.size(); i++) {
                 cout << " " << result[i];
+        }
     }
 
 
