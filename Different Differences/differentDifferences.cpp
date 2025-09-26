@@ -1,36 +1,29 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
+#define ll long long
 
-int main() {
-    int t;
+int main(){
+    ll t, n, k, i, j, diff;
     cin >> t;
 
-    while (t--) {
-        int k, n;
+    while(t--){
         cin >> k >> n;
 
-        int diff = 1;
-        vector<int> ans = {1};
+        j = 1;
+        diff = 1;
 
-        for (int i = 2; i <= k; i++) {
-            int nxt = ans.back() + diff;
-            int remElements = n - nxt;
-            int remPlaces = k - i;
+        for(i = 1; i <= k; i++){
+            cout << j << " ";
 
-            if (remElements >= remPlaces) {
-                ans.push_back(nxt);
+            if(n - (j + diff) >= (k - i - 1)){
+                j = j + diff;
                 diff++;
             }
-            else {
-                ans.push_back(ans.back() + 1);
+            else{
+                j++;
             }
         }
 
-        for (int x : ans)
-            cout << x << " ";
-
         cout << endl;
     }
-
-    return 0;
 }
