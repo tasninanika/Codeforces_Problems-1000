@@ -19,7 +19,7 @@ int main(){
                 ans.push_back('R');
             }
             if (extra > 0) {
-
+                ans.push_back('R');
             }
         }
     }
