@@ -18,6 +18,9 @@ int main(){
             for (int j = 0; j < base; j++){
                 ans.push_back('R');
             }
+            if (extra > 0) {
+
+            }
         }
     }
 
