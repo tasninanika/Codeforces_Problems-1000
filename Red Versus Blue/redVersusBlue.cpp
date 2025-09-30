@@ -23,7 +23,7 @@ int main(){
                 extra--;
             }
             if (i < b){
-
+                ans.push_back('B');
             }
         }
     }
