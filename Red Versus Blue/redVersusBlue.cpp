@@ -20,6 +20,7 @@ int main(){
             }
             if (extra > 0) {
                 ans.push_back('R');
+                extra--;
             }
         }
     }
