@@ -10,6 +10,7 @@ int main(){
         cin >> n >> r >> b;
 
         int group = b + 1;
+        int base = r / group;
     }
 
 
