@@ -16,7 +16,7 @@ int main(){
         string ans;
         for (int i = 0; i < group; i++){
             for (int j = 0; j < base; j++){
-
+                ans.push_back('R');
             }
         }
     }
