@@ -11,6 +11,7 @@ int main(){
 
         int group = b + 1;
         int base = r / group;
+        int extra = r % group;
     }
 
 
