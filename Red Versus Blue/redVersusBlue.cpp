@@ -22,6 +22,9 @@ int main(){
                 ans.push_back('R');
                 extra--;
             }
+            if (i < b){
+
+            }
         }
     }
 
