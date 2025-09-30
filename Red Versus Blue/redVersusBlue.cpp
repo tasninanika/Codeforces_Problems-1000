@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n, r, b;
         cin >> n >> r >> b;
+
+        int group = b + 1;
     }
 
 
