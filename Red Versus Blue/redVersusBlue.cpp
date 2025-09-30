@@ -14,6 +14,9 @@ int main(){
         int extra = r % group;
 
         string ans;
+        for (int i = 0; i < group; i++){
+
+        }
     }
 
 
