@@ -26,6 +26,7 @@ int main(){
                 ans.push_back('B');
             }
         }
+        cout << ans << endl;
     }
 
 
