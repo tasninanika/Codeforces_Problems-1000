@@ -20,6 +20,7 @@ int main(){
             b[i] += needed_addition;
         }
     }
+    cout << added_walks << endl;
 
 
     return 0;
