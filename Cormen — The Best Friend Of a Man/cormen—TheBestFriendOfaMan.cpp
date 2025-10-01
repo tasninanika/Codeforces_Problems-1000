@@ -25,6 +25,7 @@ int main(){
     for(int i = 0; i < n; i++){
         cout << b[i] << (i == n - 1 ? "" : " ");
     }
+    cout << endl;
 
 
     return 0;
