@@ -15,7 +15,7 @@ int main(){
         int current_sum = b[i - 1] + b[i];
 
         if(current_sum < k){
-
+            int needed_addition = k - current_sum;
         }
     }
 
