@@ -22,6 +22,10 @@ int main(){
     }
     cout << added_walks << endl;
 
+    for(int i = 0; i < n; i++){
+
+    }
+
 
     return 0;
 }
