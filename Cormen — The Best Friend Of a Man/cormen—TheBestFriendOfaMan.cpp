@@ -16,6 +16,7 @@ int main(){
 
         if(current_sum < k){
             int needed_addition = k - current_sum;
+            added_walks += needed_addition;
         }
     }
 
