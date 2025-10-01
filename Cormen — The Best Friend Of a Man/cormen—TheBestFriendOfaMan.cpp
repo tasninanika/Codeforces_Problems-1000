@@ -11,6 +11,9 @@ int main(){
     }
 
     int added_walks = 0;
+    for(int i = 1; i < n; i++){
+
+    }
 
 
     return 0;
