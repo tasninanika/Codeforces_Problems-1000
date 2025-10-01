@@ -5,6 +5,8 @@ int main(){
     int n, k;
     cin >> n >> k;
 
+    vector<int> b(n);
+
 
     return 0;
 }
