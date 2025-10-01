@@ -10,6 +10,8 @@ int main(){
         cin >> b[i];
     }
 
+    int added_walks = 0;
+
 
     return 0;
 }
