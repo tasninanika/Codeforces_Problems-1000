@@ -12,7 +12,7 @@ int main(){
 
     int added_walks = 0;
     for(int i = 1; i < n; i++){
-
+        int current_sum = b[i - 1] + b[i];
     }
 
 
