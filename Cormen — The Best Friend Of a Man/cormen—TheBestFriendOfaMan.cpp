@@ -23,7 +23,7 @@ int main(){
     cout << added_walks << endl;
 
     for(int i = 0; i < n; i++){
-
+        cout << b[i] << (i == n - 1 ? "" : " ");
     }
 
 
