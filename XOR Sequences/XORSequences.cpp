@@ -13,7 +13,7 @@ int main(){
         int k = 0;
 
         while((xor_result & 1) == 0){
-
+            xor_result >>= 1;
         }
     }
 
