@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int x, y;
         cin >> x >> y;
+
+        int xor_result = x ^ y;
     }
 
     return 0;
