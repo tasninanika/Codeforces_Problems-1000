@@ -18,6 +18,7 @@ int main(){
         }
 
         long long result = 1LL << k;
+        cout << result << endl;
     }
 
     return 0;
