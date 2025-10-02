@@ -14,6 +14,7 @@ int main(){
 
         while((xor_result & 1) == 0){
             xor_result >>= 1;
+            k++;
         }
     }
 
