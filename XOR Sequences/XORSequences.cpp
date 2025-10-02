@@ -10,6 +10,7 @@ int main(){
         cin >> x >> y;
 
         int xor_result = x ^ y;
+        int k = 0;
     }
 
     return 0;
