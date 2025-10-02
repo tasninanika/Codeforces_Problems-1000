@@ -16,6 +16,8 @@ int main(){
             xor_result >>= 1;
             k++;
         }
+
+        long long result = 1LL << k;
     }
 
     return 0;
