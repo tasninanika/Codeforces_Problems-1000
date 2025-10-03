@@ -14,7 +14,7 @@ int main(){
             bool is_fair = true;
 
             while(temp > 0){
-
+                int digit = temp % 10;
             }
         }
     }
