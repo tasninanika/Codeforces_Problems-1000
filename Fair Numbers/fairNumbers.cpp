@@ -10,7 +10,7 @@ int main(){
         cin >> n;
 
         while(true){
-
+            long long temp = n;
         }
     }
 
