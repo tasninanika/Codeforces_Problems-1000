@@ -21,6 +21,7 @@ int main(){
                         break;
                     }
                 }
+                temp /= 10;
             }
         }
     }
