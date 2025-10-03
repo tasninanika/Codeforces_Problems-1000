@@ -23,6 +23,10 @@ int main(){
                 }
                 temp /= 10;
             }
+
+            if(is_fair){
+
+            }
         }
     }
 
