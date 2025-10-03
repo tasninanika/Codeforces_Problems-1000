@@ -26,6 +26,7 @@ int main(){
 
             if(is_fair){
                 cout << n << endl;
+                break;
             }
         }
     }
