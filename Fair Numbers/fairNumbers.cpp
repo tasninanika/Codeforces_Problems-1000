@@ -17,7 +17,7 @@ int main(){
                 int digit = temp % 10;
                 if(digit != 0){
                     if(n % digit != 0){
-
+                        is_fair = false;
                     }
                 }
             }
