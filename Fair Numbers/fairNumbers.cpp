@@ -12,6 +12,10 @@ int main(){
         while(true){
             long long temp = n;
             bool is_fair = true;
+
+            while(temp > 0){
+
+            }
         }
     }
 
