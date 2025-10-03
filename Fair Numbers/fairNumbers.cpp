@@ -15,6 +15,9 @@ int main(){
 
             while(temp > 0){
                 int digit = temp % 10;
+                if(digit != 0){
+
+                }
             }
         }
     }
