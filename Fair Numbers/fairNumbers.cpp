@@ -18,6 +18,7 @@ int main(){
                 if(digit != 0){
                     if(n % digit != 0){
                         is_fair = false;
+                        break;
                     }
                 }
             }
