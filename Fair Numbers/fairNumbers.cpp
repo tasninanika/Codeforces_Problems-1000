@@ -28,6 +28,7 @@ int main(){
                 cout << n << endl;
                 break;
             }
+            n++;
         }
     }
 
