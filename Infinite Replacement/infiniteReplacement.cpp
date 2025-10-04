@@ -16,6 +16,21 @@ int main(){
                 break;
             }
         }
+
+        if (t_contains_a) {
+            if (t.length() == 1) {
+            cout << 1 << endl;
+        }
+            else {
+                cout << -1 << endl;
+            }
+        }
+        else {
+            long long n = s.length();
+            long long result = 1LL << n;
+
+            cout << result << endl;
+        }
     }
 
 
