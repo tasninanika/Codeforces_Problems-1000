@@ -10,6 +10,9 @@ int main(){
         cin >> s >> T;
 
         bool T_contains_a = false;
+        for(size_t i = 0; i < T.length(); i++){
+
+        }
     }
 
 
