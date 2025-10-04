@@ -9,7 +9,7 @@ int main(){
         string s, T;
         cin >> s >> T;
 
-        bool t_contains_a = false;
+        bool T_contains_a = false;
     }
 
 
