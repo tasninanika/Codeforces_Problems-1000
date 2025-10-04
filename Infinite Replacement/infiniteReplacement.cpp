@@ -8,6 +8,8 @@ int main(){
     while(t--){
         string s, T;
         cin >> s >> T;
+
+        bool t_contains_a = false;
     }
 
 
