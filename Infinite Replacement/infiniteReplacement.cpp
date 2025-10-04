@@ -17,8 +17,8 @@ int main(){
             }
         }
 
-        if (t_contains_a) {
-            if (t.length() == 1) {
+        if (T_contains_a) {
+            if (T.length() == 1) {
             cout << 1 << endl;
         }
             else {
